@@ -15,7 +15,7 @@ import rdflib
 
 g = rdflib.Graph()
 g.parse('GRhOOT_Ontology.owl', format='application/rdf+xml')
-ont = rdflib.Namespace('http://www.kuehnram.de/ontologies/ont.owl')
+ont = rdflib.Namespace('http://webprotege.stanford.edu/')
 g.bind('ont', ont)
 
 competency_question_q3 = """
