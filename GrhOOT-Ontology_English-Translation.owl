@@ -1003,6 +1003,7 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isDefinedBy>
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ont.owl#Beginning-and-End">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/ont.owl#LinguisticPosition"/>
         <rdfs:label>Beginning-and-End</rdfs:label>
+        <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beginning-and-End</ont:Name>
     </owl:NamedIndividual>
     
 
