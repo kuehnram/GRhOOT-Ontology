@@ -861,7 +861,7 @@ Bildhaft-symbolischer Ausdruck eines Gedankens in solcher Weise, dass das eigent
         <ont:liegtImBereich rdf:resource="http://webprotege.stanford.edu/ont.owl#Paragraph"/>
         <ont:liegtImBereich rdf:resource="http://webprotege.stanford.edu/ont.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anadiplose</ont:Name>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdopplung; WIederholung des letzten Wortes eines Satzes/Zeile am  Anfang des(r) folgenden Satzes/Zeile (Berner)</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdopplung; Wiederholung des letzten Wortes eines Satzes/Zeile am  Anfang des(r) folgenden Satzes/Zeile (Berner)</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die schlafende zuernende Norne naechtlichen Nichtdenkens / naechtlichem Nichtdenken anheimgegeben&quot; (Wolfgang Koeppen: Tod in Rom)</rdfs:isDefinedBy>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Dem Africanus erwarb seine Taetigkeit Tugend, seine
 Tugend Ruhm, sein Ruhm Nebenbuhler” (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isDefinedBy>
@@ -1628,8 +1628,75 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isDefinedBy>
         <rdfs:seeAlso xml:lang="en">Epenthesis</rdfs:seeAlso>
     </owl:NamedIndividual>
     
+    
+
+    <!-- http://webprotege.stanford.edu/ont.owl#Epanadiplose -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ont.owl#Epanadiplose">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/ont.owl#RhetorischeFigur"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ont.owl#istLinguistischeGruppe"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ont.owl#LinguistischeGruppe"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ont.owl#istRhetorischeGruppe"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ont.owl#RhetorischeGruppe"/>
+            </owl:Restriction>
+        </rdf:type>
+        <ont:istEinWiederholbaresElementDerselbenForm rdf:resource="http://webprotege.stanford.edu/ont.owl#Phrasenelement"/>
+        <ont:istEinWiederholbaresElementDerselbenForm rdf:resource="http://webprotege.stanford.edu/ont.owl#Wortelement"/>
+        <ont:istLinguistischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Syntaktisch"/>
+        <ont:istInPosition rdf:resource="http://webprotege.stanford.edu/ont.owl#Anfang-und-Ende"/>
+        <ont:istUeberObjekt rdf:resource="http://webprotege.stanford.edu/ont.owl#Satzobjekt"/>
+        <ont:istUeberObjekt rdf:resource="http://webprotege.stanford.edu/ont.owl#Versobjekt"/>
+        <ont:istRhetorischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Betonungsfigur"/>
+        <ont:liegtImBereich rdf:resource="http://webprotege.stanford.edu/ont.owl#Paragraph"/>
+        <ont:liegtImBereich rdf:resource="http://webprotege.stanford.edu/ont.owl#Strophe"/>
+        <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanadiplose</ont:Name>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiederholung eines Wortes am Anfang und am Ende eines Satzes/Zeile</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Entbehren sollst du! sollst entbehren!; (Johann Wolfgang von Goethe: Faust)</rdfs:isDefinedBy>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanadiplose</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">Epanalepsis</rdfs:seeAlso>
+    </owl:NamedIndividual>
 
 
+
+    <!-- http://webprotege.stanford.edu/ont.owl#Epanalepse -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ont.owl#Epanalepse">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/ont.owl#RhetorischeFigur"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ont.owl#istLinguistischeGruppe"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ont.owl#LinguistischeGruppe"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ont.owl#istRhetorischeGruppe"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ont.owl#RhetorischeGruppe"/>
+            </owl:Restriction>
+        </rdf:type>
+        <ont:istEinWiederholbaresElementDerselbenForm rdf:resource="http://webprotege.stanford.edu/ont.owl#Phrasenelement"/>
+        <ont:istEinWiederholbaresElementDerselbenForm rdf:resource="http://webprotege.stanford.edu/ont.owl#Wortelement"/>
+        <ont:istLinguistischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Syntaktisch"/>
+        <ont:istUeberObjekt rdf:resource="http://webprotege.stanford.edu/ont.owl#Satzobjekt"/>
+        <ont:istUeberObjekt rdf:resource="http://webprotege.stanford.edu/ont.owl#Versobjekt"/>
+        <ont:istRhetorischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Betonungsfigur"/>
+        <ont:liegtImBereich rdf:resource="http://webprotege.stanford.edu/ont.owl#Paragraph"/>
+        <ont:liegtImBereich rdf:resource="http://webprotege.stanford.edu/ont.owl#Strophe"/>
+        <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanalepse</ont:Name>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Wiederholung eines Wortes oder einer syntakt. Einheit (mit Satzglied- oder Satzfunktion). Die Epanalese verleiht durch die Wiederholung Nachdruck und Eindrücklichkeit (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Obwohl sie unter Wasser sind, unter Wasser versuchen sie zu fluchen&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isDefinedBy>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanalepse</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">Ploke</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+    
+    
     <!-- http://webprotege.stanford.edu/ont.owl#Epipher -->
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ont.owl#Epipher">
