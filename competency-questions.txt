@@ -1,0 +1,41 @@
+__author__ = "Ramona Kuehn"
+__license__ = "MIT"
+__version__ = "1.0."
+__email__ = "ramona.kuehn@uni-passau.de"
+
+
+## DL QUERIES
+# Competency Question Q1:
+istInPosition value Anfang
+
+
+# Competency Question Q2:
+istInPosition value Anfang and (istRhetorischeGruppe value Betonungsfigur or istRhetorischeGruppe value Gedankenfigur)
+
+
+## SPARQL QUERIES
+# Competency question Q3
+SELECT distinct ?figur
+WHERE {
+    ?figur ont:istRhetorischeGruppe ?gruppe .
+    ?gruppe rdfs:label ?gruppenName .
+    ?figur ont:istInPosition ?position .
+    ?position ont:Name ?posName .
+    Filter (?gruppenName != "Tropenfigur" && ?gruppenName != "Konstruktionsfigur" && ?posName = "Anfang") }
+
+
+# Competency question Q4
+SELECT distinct ?figur
+WHERE {
+    ?figur ont:liegtImBereich ?bereich .
+    ?bereich ont:Name ?nameBereich .
+    Filter (?nameBereich = "Wort" ) }
+
+
+# Competency question Q5
+SELECT distinct ?figur
+WHERE {
+    ?figur ont:wirdWeggelassen ?element .
+    ?element ont:Name ?name .
+    Filter (?name = "Buchstabe" ) }
+

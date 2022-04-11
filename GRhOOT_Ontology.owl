@@ -30,11 +30,6 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/ont.owl#R8oBXxrp1LP6eaSTdSJQlR -->
-
-    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/ont.owl#R8oBXxrp1LP6eaSTdSJQlR"/>
-    
-
 
     <!-- http://webprotege.stanford.edu/ont.owl#rdfs -->
 
@@ -61,7 +56,13 @@
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/ont.owl#wirdHinzugefuegt"/>
         <rdfs:label>einWeiteresElementDerStaerkerenBedeutungWirdHinzugefuegt</rdfs:label>
     </owl:ObjectProperty>
-    
+
+
+    <!-- http://webprotege.stanford.edu/ont.owl#einWeiteresElementDerStaerkerenBedeutungWirdHinzugefuegt -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/ont.owl#istSynonym">
+        <rdfs:label>istSynonym</rdfs:label>
+    </owl:ObjectProperty>
 
 
     <!-- http://webprotege.stanford.edu/ont.owl#wirdDurchEinAnderesElementDerAnderenBedeutungErsetzt -->
@@ -441,16 +442,9 @@
         <rdfs:range rdf:resource="http://www.mmiljana.com/ontologies/ont.owl#LinguistischerUmfang"/>
         <rdfs:label>liegtImBereich</rdfs:label>
     </owl:ObjectProperty>
-    
-  <!-- http://www.mmiljana.com/ontologies/ont.owl#jeNadOpsegom 
 
-    <owl:ObjectProperty rdf:about="http://www.mmiljana.com/ontologies/ont.owl#jeNadOpsegom">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.mmiljana.com/ontologies/ont.owl#RetorickaFigura"/>
-        <rdfs:range rdf:resource="http://www.mmiljana.com/ontologies/ont.owl#LingvistickiOpseg"/>
-    </owl:ObjectProperty> 
--->
-    
+
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -1360,6 +1354,7 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isDefinedBy>
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ont.owl#Buchstabe">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/ont.owl#LinguistischesElement"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buchstabe</ont:Name>
+        <rdfs:label>Buchstabe</rdfs:label>
 
     </owl:NamedIndividual>
     
@@ -1416,7 +1411,7 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isDefinedBy>
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ont.owl#RhetorischeGruppe"/>
             </owl:Restriction>
         </rdf:type>
-        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/ont.owl#Kakophonie"/>
+        <istSynonym rdf:resource="http://webprotege.stanford.edu/ont.owl#Kakophonie"/>
         <ont:wirdDurchEinAnderesElementDerStaerkerenBedeutungErsetzt rdf:resource="http://webprotege.stanford.edu/ont.owl#Phrasenelement"/>
         <ont:wirdDurchEinAnderesElementDerStaerkerenBedeutungErsetzt rdf:resource="http://webprotege.stanford.edu/ont.owl#Wortelement"/>
         <ont:istLinguistischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Semantisch"/>
@@ -1713,7 +1708,7 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isDefinedBy>
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ont.owl#RhetorischeGruppe"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:istEinWiederholbaresElementDerselbenForm rdf:resource="http://webprotege.stanford.edu/ont.owl#Wortobjekt"/>
+        <ont:istEinWiederholbaresElementDerselbenForm rdf:resource="http://webprotege.stanford.edu/ont.owl#Wortelement"/>
         <ont:istLinguistischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Syntaktisch"/>
         <ont:istInPosition rdf:resource="http://webprotege.stanford.edu/ont.owl#Ende"/>
         <ont:istUeberObjekt rdf:resource="http://webprotege.stanford.edu/ont.owl#Phrasenobjekt"/>
@@ -2778,7 +2773,7 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ont.owl#RhetorischeGruppe"/>
             </owl:Restriction>
         </rdf:type>
-        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/ont.owl#R91LRpxFYuKiJkXzqu3GFFc"/>
+        <owl:istSynonym rdf:resource="http://webprotege.stanford.edu/ont.owl#Prolepse"/>
         <ont:istEinWiederholbaresElementDerZweitenArt rdf:resource="http://webprotege.stanford.edu/ont.owl#Wortelement"/>
         <ont:istLinguistischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Morphologisch"/>
         <ont:istLinguistischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Syntaktisch"/>
@@ -3018,7 +3013,7 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ont.owl#RhetorischeGruppe"/>
             </owl:Restriction>
         </rdf:type>
-        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/ont.owl#R87BgNpBunWHs74JG6S0048"/>
+        <owl:istSynonym rdf:resource="http://webprotege.stanford.edu/ont.owl#Paronomasie"/>
         <ont:istLinguistischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Semantisch"/>
         <ont:istLinguistischeGruppe rdf:resource="http://webprotege.stanford.edu/ont.owl#Syntaktisch"/>
         <ont:einWeiteresElementWirdAlsPositiveAntwortHinzugefuegt rdf:resource="http://webprotege.stanford.edu/ont.owl#Phrasenelement"/>
