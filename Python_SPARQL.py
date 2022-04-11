@@ -15,8 +15,8 @@ Q5: looking for rhetorical figures where a letter is omitted.
 import rdflib
 
 g = rdflib.Graph()
-g.parse('GRhOOT_Ontology.owl', format='application/rdf+xml')
-ont = rdflib.Namespace('http://webprotege.stanford.edu/')
+g.parse('grhoot.owl', format='application/rdf+xml')
+ont = rdflib.Namespace('https://ramonakuehn.de/')
 g.bind('ont', ont)
 
 
@@ -48,19 +48,19 @@ WHERE {
 """
 
 
-print("Competency Question Q3:")
+print("Competency Question Q3: Neither a trope nor a figure of construction, but position at the beginning")
 result = g.query(competency_question_q3)
 print(f"Number of matching rhetorical figures: {len(result)}")
 for row in result:
     print(row)
 
-print("Competency Question Q4:")
+print("Competency Question Q4: In the area of a word")
 result = g.query(competency_question_q4)
 print(f"Number of matching rhetorical figures: {len(result)}")
 for row in result:
     print(row)
 
-print("\nCompetency Question Q5:")
+print("\nCompetency Question Q5: Where a letter is omitted")
 result = g.query(competency_question_q5)
 print(f"Number of matching rhetorical figures: {len(result)}")
 for row in result:
