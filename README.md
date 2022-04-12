@@ -6,7 +6,7 @@ The file ```competency-questions.txt``` shows five competency questions in DL an
 An example how to use SPARQL in Python can be found in the file ```Python_SPARQL.py```.
 
 The ontology is available at: https://ramonakuehn.de/grhoot.owl \
-A documentation created by LODE is available at: https://ramonakuehn.de/ghroot_documentation.htm
+A documentation created by LODE is available at: https://ramonakuehn.de/grhoot_documentation.htm
 
 
 When using the ontology, please cite: \
