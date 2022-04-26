@@ -444,8 +444,8 @@
 
     <owl:ObjectProperty rdf:about="https://ramonakuehn.de/grhoot.owl#liegtImBereich">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-         <rdfs:domain rdf:resource="http://www.mmiljana.com/ontologies/ont.owl#RhetorischeFigur"/>
-        <rdfs:range rdf:resource="http://www.mmiljana.com/ontologies/ont.owl#LinguistischerUmfang"/>
+         <rdfs:domain rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetorischeFigur"/>
+        <rdfs:range rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguistischerUmfang"/>
         <rdfs:label>liegtImBereich</rdfs:label>
     </owl:ObjectProperty>
 
