@@ -39,11 +39,6 @@
     
 
 
-    <!-- https://ramonakuehn.de/grhoot.owl#isExample -->
-
-    <owl:AnnotationProperty rdf:about="https://ramonakuehn.de/grhoot.owl#isExample">
-        <rdfs:label>isExample</rdfs:label>
-    </owl:AnnotationProperty>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -470,7 +465,12 @@
         <rdfs:label>Name</rdfs:label>
     </owl:DatatypeProperty>
     
+    <!-- https://ramonakuehn.de/grhoot.owl#istBeispiel -->
 
+    <owl:DatatypeProperty rdf:about="https://ramonakuehn.de/grhoot.owl#istBeispiel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>istBeispiel</rdfs:label>
+    </owl:DatatypeProperty>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -609,9 +609,9 @@
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#VERS"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akkumulatio</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syndetische oder asyndetische Anhaeufung von Einzelbegriffen, der Oberbegriff kann vor- oder nachgestellt, oder auch weggelassen sein, eine Aussage wird ueber das zur Verstaendigung Noetige hinaus kunstvoll erweitert.</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ihre Anzahl ist Legion: Staatsraete und Regierungsraete, Landraete und Kreisraete, Geistliche Raete und Schulraete, Finanzraete und Forstraete usw.&quot; (Georg Buechner: Der hessische Landbote)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mord! Zeter! Jammer! Angst! Creutz! Marter! Wuerme! Plagen!&quot; (Andreas Gryphius: Die Hoelle)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ein stiller, hagerer, duenner, laenglicher Mann&quot; (Adelbert von Chamisso: Peter Schlehmihls wunderbare Geschichte)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ihre Anzahl ist Legion: Staatsraete und Regierungsraete, Landraete und Kreisraete, Geistliche Raete und Schulraete, Finanzraete und Forstraete usw.&quot; (Georg Buechner: Der hessische Landbote)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mord! Zeter! Jammer! Angst! Creutz! Marter! Wuerme! Plagen!&quot; (Andreas Gryphius: Die Hoelle)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ein stiller, hagerer, duenner, laenglicher Mann&quot; (Adelbert von Chamisso: Peter Schlehmihls wunderbare Geschichte)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akkumulatio</rdfs:label>
         <rdfs:seeAlso xml:lang="de">Akkumulation</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Pojacanje</rdfs:seeAlso>
@@ -638,8 +638,8 @@
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#SATZ"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akzismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein Akzismus ist eine Form der Ironie, bei der eine Person Gleichgueltigkeit vortaeuscht oder vorgibt, etwas abzulehnen, was sie sich eigentlich wuenscht</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Das Geschenk kann ich wirklich nicht annehmen!”</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Das hat er nicht wirklich gesagt.”</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Das Geschenk kann ich wirklich nicht annehmen!”</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Das hat er nicht wirklich gesagt.”</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akzismus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Accism</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Akizam</rdfs:seeAlso>
@@ -676,8 +676,8 @@
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allegorie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein durch ein Konkretum substituiertes Abstraktum (Berner). 
 Bildhaft-symbolischer Ausdruck eines Gedankens in solcher Weise, dass das eigentlich Gemeinte auch in den Details zu erkennen ist. (Metzler)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Justitia als Frau mit verbundenen Augen</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taube mit oelzweig als Zeichen fuer Frieden</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Justitia als Frau mit verbundenen Augen</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taube mit oelzweig als Zeichen fuer Frieden</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allegorie</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Alegorija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Allegory</rdfs:seeAlso>
@@ -711,14 +711,14 @@ Bildhaft-symbolischer Ausdruck eines Gedankens in solcher Weise, dass das eigent
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliteration</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gleichklingender Anlaut der betonten Silben innerhalb einer Wortgruppe (Metzler).</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Beim Strahlenden Strontium&quot; (Michael Ende: Der satanarchaeoluegenialkohoellische Wunschpunsch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Deutlich. Deftig. Direkt.&quot; (Franz Josef Strauß)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Geiz ist geil&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mail. Message. More&quot; (Werbung; mit Assonanz)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mut zur Muße&quot; (Werbung; mit Assonanz)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Stock, der du gewesen, steh doch wieder still&quot; (Goethe)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Winterwinde wichen dem Wonnemond&quot; (Richard Wagner)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zwischen zwei Zwetschgenzweigen zwitschern zwei Zwerge&quot; (Umgangssprachlich)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Beim Strahlenden Strontium&quot; (Michael Ende: Der satanarchaeoluegenialkohoellische Wunschpunsch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Deutlich. Deftig. Direkt.&quot; (Franz Josef Strauß)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Geiz ist geil&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mail. Message. More&quot; (Werbung; mit Assonanz)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mut zur Muße&quot; (Werbung; mit Assonanz)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Stock, der du gewesen, steh doch wieder still&quot; (Goethe)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Winterwinde wichen dem Wonnemond&quot; (Richard Wagner)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zwischen zwei Zwetschgenzweigen zwitschern zwei Zwerge&quot; (Umgangssprachlich)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliteration</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Aliteracija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Alliteration</rdfs:seeAlso>
@@ -753,10 +753,10 @@ Bildhaft-symbolischer Ausdruck eines Gedankens in solcher Weise, dass das eigent
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allusion</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eine Anspielung auf kuenstlerische Werke, Personen oder historische, oft zeitgeschichtliche Ereignisse, von daher sehr stark situationsgebunden, zu ihrer Wirkung setzt sie das mitwissende Verstaendnis der Rezipienten voraus. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;etwas mit Argusaugen bewachen&quot; (Sprichwort)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Droht Amerika ein zweites Vietnam?” (Artikel aus der FAZ)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Du weißt, was ich meine”</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich weiß, wo du gestern gewesen bist.”</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;etwas mit Argusaugen bewachen&quot; (Sprichwort)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Droht Amerika ein zweites Vietnam?” (Artikel aus der FAZ)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Du weißt, was ich meine”</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich weiß, wo du gestern gewesen bist.”</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allusion</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Allusion</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Aluzija</rdfs:seeAlso>
@@ -791,8 +791,8 @@ Bildhaft-symbolischer Ausdruck eines Gedankens in solcher Weise, dass das eigent
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amphibolie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambiguitas: Doppeldeutigkeit, Zwei- oder Mehrdeutigkeit eines Wortes. (Heike Mayer)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;In keiner Sprache kann man sich so schwer verstaendigen wie in der Sprache&quot; (Karl Kraus)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mercedes - dein guter Stern auf allen Straßen&quot; (Werbung)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;In keiner Sprache kann man sich so schwer verstaendigen wie in der Sprache&quot; (Karl Kraus)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mercedes - dein guter Stern auf allen Straßen&quot; (Werbung)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amphibolie</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Amfibolija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Amphiboly</rdfs:seeAlso>
@@ -827,7 +827,7 @@ Bildhaft-symbolischer Ausdruck eines Gedankens in solcher Weise, dass das eigent
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amplifikation</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vergroeßerung, Steigerung; eine rein umfangreiche Erweiterung eines Gedankens durch detaillierte Ausfuehrung ueber das zum Verstaendnis Noetige hinaus, ist oft eine ueberfluessige Aufbauschung oder inhaltlich nicht notwenidge Haeufung. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Sie sind ganz einfach reizend [...] und ich bin ueberzeugt, daß mein Antrag dennoch annehmbar fuer Sie sein wird, sobald er sich auf die Autoritaet Ihrer beiden ausgezeichneten Eltern stuetzt.” (Jane Austen: Stolz und Vorurteil)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Sie sind ganz einfach reizend [...] und ich bin ueberzeugt, daß mein Antrag dennoch annehmbar fuer Sie sein wird, sobald er sich auf die Autoritaet Ihrer beiden ausgezeichneten Eltern stuetzt.” (Jane Austen: Stolz und Vorurteil)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amplifikation</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Amplification</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Amplifikacija</rdfs:seeAlso>
@@ -862,9 +862,9 @@ Bildhaft-symbolischer Ausdruck eines Gedankens in solcher Weise, dass das eigent
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anadiplose</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdopplung; Wiederholung des letzten Wortes eines Satzes/Zeile am  Anfang des(r) folgenden Satzes/Zeile (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die schlafende zuernende Norne naechtlichen Nichtdenkens / naechtlichem Nichtdenken anheimgegeben&quot; (Wolfgang Koeppen: Tod in Rom)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Dem Africanus erwarb seine Taetigkeit Tugend, seine
-Tugend Ruhm, sein Ruhm Nebenbuhler” (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die schlafende zuernende Norne naechtlichen Nichtdenkens / naechtlichem Nichtdenken anheimgegeben&quot; (Wolfgang Koeppen: Tod in Rom)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Dem Africanus erwarb seine Taetigkeit Tugend, seine
+Tugend Ruhm, sein Ruhm Nebenbuhler” (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anadiplose</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Anadiplosis</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Palilogija</rdfs:seeAlso>
@@ -902,9 +902,9 @@ Tugend Ruhm, sein Ruhm Nebenbuhler” (Helmut Glueck: Metzler Lexikon Sprache)</
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anagramm</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wortumbildung durch Wort- oder Silbenumstellung (Permutation) fuer Wortspiele oder Pseudonyme benutzt, auch Gebrauch eines anderen Namens anstelle des eigenen. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Einbrecher: bereichern&quot; (Helmut Glueck: Metzler Lexikon der Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Martin Luther: lehre in armut&quot; (Helmut Glueck: Metzler Lexikon der Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Salvador Dali: avida dollars&quot; (Helmut Glueck: Metzler Lexikon der Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Einbrecher: bereichern&quot; (Helmut Glueck: Metzler Lexikon der Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Martin Luther: lehre in armut&quot; (Helmut Glueck: Metzler Lexikon der Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Salvador Dali: avida dollars&quot; (Helmut Glueck: Metzler Lexikon der Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anagramm</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Anagram</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Anagram</rdfs:seeAlso>
@@ -938,9 +938,9 @@ Tugend Ruhm, sein Ruhm Nebenbuhler” (Helmut Glueck: Metzler Lexikon Sprache)</
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anakoluth</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicht folgerichtig; eine Unfolge in der Satzfuehrung, ein Herausfallen aus der Bauart des Satzanfanges, die Satzkonstruktion wird anders als begonnen fortgefuehrt, auch als absoluter Nominativ bezeichnet: ein im Nominativ stehender praedikatloser, vorausgenommener und pronominal wieder aufgenommener Satzteil oder Kasus. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Un die Frau hat bestimmt eh da is es sogar so, da… der also bei den Germanen wurde ja die Frau so unheimlich hoch eingeschaetzt&quot; (Helmut Glueck: Metzler Lexikon der Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Wenn ich dich in die Finger kriege..” (Spruch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“ &apos;Wie ist das uebrigens…&apos;, begann Elizabeth, besann sich aber und fuhr fort: &apos;Mit den Bedingungen wirst du dich wohl einverstanden erklaeren muessen, nicht wahr?&apos;” (Jane Austen: Stolz und Vorurteil)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Un die Frau hat bestimmt eh da is es sogar so, da… der also bei den Germanen wurde ja die Frau so unheimlich hoch eingeschaetzt&quot; (Helmut Glueck: Metzler Lexikon der Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Wenn ich dich in die Finger kriege..” (Spruch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“ &apos;Wie ist das uebrigens…&apos;, begann Elizabeth, besann sich aber und fuhr fort: &apos;Mit den Bedingungen wirst du dich wohl einverstanden erklaeren muessen, nicht wahr?&apos;” (Jane Austen: Stolz und Vorurteil)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anakoluth</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Anakolut</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">anacoluthon</rdfs:seeAlso>
@@ -975,12 +975,12 @@ Tugend Ruhm, sein Ruhm Nebenbuhler” (Helmut Glueck: Metzler Lexikon Sprache)</
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anapher</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiederholung des Anfangswortes in aufeinanderfolgenden Saetzen oder Zeilen. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das Wasser rauscht, das Wasser schwoll, Netzt ihm den nackten Fuß&quot; (Goethe)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich kandidiere fuer die Praesidentschaft nicht nur [...] Ich kandidiere, weil ich ueberzeugt bin [...]&quot; (Robert F. Kennedy: Bekanntgabe Praesidentschaftskandidatur)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Lies keine Oden, mein Sohn, lies die Fahrplaene: sie sind genauer&quot; (Enzensberger)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;wir brauchen nicht nur den Flicken, 
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das Wasser rauscht, das Wasser schwoll, Netzt ihm den nackten Fuß&quot; (Goethe)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich kandidiere fuer die Praesidentschaft nicht nur [...] Ich kandidiere, weil ich ueberzeugt bin [...]&quot; (Robert F. Kennedy: Bekanntgabe Praesidentschaftskandidatur)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Lies keine Oden, mein Sohn, lies die Fahrplaene: sie sind genauer&quot; (Enzensberger)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;wir brauchen nicht nur den Flicken, 
 wir brauchen den ganzen Rock,
-wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
+wir brauchen…&quot; (Bertold Brecht: Die Mutter)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anapher</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Anafora</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Anaphora</rdfs:seeAlso>
@@ -1035,10 +1035,10 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropomorphismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methodisches Verfahren, Eigenschaften und Verhaltensweisen von Menschen auf außermenschliche Gegenstaende und Verhaeltnisse zu uebertragen. (Metzler)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wird Deutschland es schaffen, rechtzeitig aus der Krise zu kommen?&quot; (Politiker der Union 2009)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Himmel weint&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Sturm tobte&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Waschmaschinen leben laenger mit Calgon.” (Werbung)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wird Deutschland es schaffen, rechtzeitig aus der Krise zu kommen?&quot; (Politiker der Union 2009)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Himmel weint&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Sturm tobte&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Waschmaschinen leben laenger mit Calgon.” (Werbung)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropomorphismus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Anthropomorphism</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Antropomorfizacija</rdfs:seeAlso>
@@ -1073,10 +1073,10 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antimetabole</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiederholung von Woertern in zwei gleich gebauten Saetzen in umgekehrter Reihenfolge (z. B.: Wir leben nicht, um zu essen, sondern wir essen, um zu leben) (Duden)</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aehnlich zu Chiasmus</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Millionaere brauchen die Arbeiterklasse. Die Arbeiterklasse braucht keine Millionaere.&quot; (Alexandria Ocasio-Cortez (auf Twitter)
-(Antithetische Antimetabole)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Frage nicht, was dein Land fuer dich tun kann, frage, was du fuer dein Land tun kannst.” (John F. Kennedy)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Wir leben nicht, um zu arbeiten; wir arbeiten, um zu leben.” (Spruch)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Millionaere brauchen die Arbeiterklasse. Die Arbeiterklasse braucht keine Millionaere.&quot; (Alexandria Ocasio-Cortez (auf Twitter)
+(Antithetische Antimetabole)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Frage nicht, was dein Land fuer dich tun kann, frage, was du fuer dein Land tun kannst.” (John F. Kennedy)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Wir leben nicht, um zu arbeiten; wir arbeiten, um zu leben.” (Spruch)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antimetabole</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Antimetabola</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Antimetabole</rdfs:seeAlso>
@@ -1111,11 +1111,11 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antithese</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gegensetzung; Gegenueberstellung entgegengesetzter Begriffe in einem Satz: &quot;Was dieser baut, reißt jener morgen ein&quot; (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fuer kleine Hunde mit großen Anspruechen&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Gute Miene zum boesen Spiel machen&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Heißgeliebt - und kalt getrunken&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mehr Frucht, weniger Durst.&quot; (Spruch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;weniger ist mehr&quot; (Spruch)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fuer kleine Hunde mit großen Anspruechen&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Gute Miene zum boesen Spiel machen&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Heißgeliebt - und kalt getrunken&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mehr Frucht, weniger Durst.&quot; (Spruch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;weniger ist mehr&quot; (Spruch)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antithese</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Antiteza</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Antitheton</rdfs:seeAlso>
@@ -1147,10 +1147,10 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aphaerese</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegnahme, Schwinden eines Vokals im Wortanlaut (Gerd Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Geht nicht, gibt&apos;s nicht.&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Rein und &apos;raus, ich bin&apos;s&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wer was zu sagen hat, sagt&apos;s.&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Dann klappt&apos;s auch mit den Nachbarn” (Werbung)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Geht nicht, gibt&apos;s nicht.&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Rein und &apos;raus, ich bin&apos;s&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wer was zu sagen hat, sagt&apos;s.&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Dann klappt&apos;s auch mit den Nachbarn” (Werbung)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aphaerese</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Afereza</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">aphaeresis</rdfs:seeAlso>
@@ -1183,9 +1183,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apokope</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abschneidung, Wegfall eines Buchstaben am Wortende (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich bring&apos; heut&apos; ein&apos; ganz seligen Tandelmarkt&quot; (Nestroy: Der Talismann II, 17)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;dem Hund(e)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;dem Mann(e)&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich bring&apos; heut&apos; ein&apos; ganz seligen Tandelmarkt&quot; (Nestroy: Der Talismann II, 17)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;dem Hund(e)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;dem Mann(e)&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apokope</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Apocope</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Apokopa</rdfs:seeAlso>
@@ -1220,11 +1220,11 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aposiopesis</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verschweigen des Wichtigen unter affektbetontem Abbruch der Rede mitten im Satz (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;&apos; Wie ist das uebrigens…&apos;, begann Elizabeth [...]&quot; (Jane Austen: Stolz und Vorurteil)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fuer die einen ist es Duplo...&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Warst du...?&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Hast du..?”</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Schau mal, was ich gestern..”</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;&apos; Wie ist das uebrigens…&apos;, begann Elizabeth [...]&quot; (Jane Austen: Stolz und Vorurteil)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fuer die einen ist es Duplo...&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Warst du...?&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Hast du..?”</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Schau mal, was ich gestern..”</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aposiopesis</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Aposiopesis</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Aposiopeza</rdfs:seeAlso>
@@ -1260,8 +1260,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apostrophe</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abwendung; ein sich Abwenden von der Wirklichkeit und hinwendende Anrufun visionaerer Gestalten oder Abwesender, als seien sie anwesend, i.w.S. auch jede feierliche Anrede (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ach Gott, wie ist verderbt die Welt” (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Mein Gott, mein Gott, warum hast du mich verlassen.” (Bibelvers)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ach Gott, wie ist verderbt die Welt” (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Mein Gott, mein Gott, warum hast du mich verlassen.” (Bibelvers)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apostrophe</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Apostrofa</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Apostrophe</rdfs:seeAlso>
@@ -1295,10 +1295,10 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assonanz</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vokalischer Gleichklang in verschiedenen, im engeren Sinne nur in bestonten Silben; auch: vokalischer Halbreim genannt (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Bad und Tag&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Geiz ist geil&quot;  (Werbung; mit Alliteration)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mut zur Muße&quot;  (Werbung; mit Alliteration)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Suppe und hundert&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Bad und Tag&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Geiz ist geil&quot;  (Werbung; mit Alliteration)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mut zur Muße&quot;  (Werbung; mit Alliteration)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Suppe und hundert&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assonanz</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Asonanca</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Assonance</rdfs:seeAlso>
@@ -1332,11 +1332,11 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asyndeton</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unverbundenheit, Aneinanderreihung gleichgeordneter Satzglieder ohne Konjunktion</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Außen kompakt. Innen Van.&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Erst der Mensch, dann die Maschine.&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Halbes Koffein, volles Verwoehnaroma.&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Messer, Gabel, Schere, Licht sind fuer kleine Kinder nicht&quot; (Sprichwort)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Venus, Mars, Jupiter, Merkur koennen von der Erde betrachtet werden.&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Außen kompakt. Innen Van.&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Erst der Mensch, dann die Maschine.&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Halbes Koffein, volles Verwoehnaroma.&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Messer, Gabel, Schere, Licht sind fuer kleine Kinder nicht&quot; (Sprichwort)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Venus, Mars, Jupiter, Merkur koennen von der Erde betrachtet werden.&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asyndeton</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Asident</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Asidenton</rdfs:seeAlso>
@@ -1392,8 +1392,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiasmus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ueberkreuzstellung von syntaktisch oder semantisch entsprechenden Satzteilen (&quot;die Kunst ist lang, und kurz ist unser Leben&quot; (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Stadt ist groß und klein ist das Gehalt&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Die Kunst ist lang, und kurz ist unser Leben” (Goethe: Faust)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Stadt ist groß und klein ist das Gehalt&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Die Kunst ist lang, und kurz ist unser Leben” (Goethe: Faust)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiasmus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">chiasm</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">hijazam</rdfs:seeAlso>
@@ -1417,7 +1417,7 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetorischeGruppe"/>
             </owl:Restriction>
         </rdf:type>
-        <istSynonym rdf:resource="https://ramonakuehn.de/grhoot.owl#Kakophonie"/>
+        <ont:istSynonym rdf:resource="https://ramonakuehn.de/grhoot.owl#Kakophonie"/>
         <ont:wirdDurchEinAnderesElementDerStaerkerenBedeutungErsetzt rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenelement"/>
         <ont:wirdDurchEinAnderesElementDerStaerkerenBedeutungErsetzt rdf:resource="https://ramonakuehn.de/grhoot.owl#Wortelement"/>
         <ont:istLinguistischeGruppe rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantisch"/>
@@ -1430,9 +1430,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dysphemismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ausdruck mit stark herabsetzender Bedeutung, saftige Beschimpfung, Beleidigung, die die Normen des sprachlichen Benimms verletzt (Metzler)</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gegenteil zu Euphemismus</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Baader-Meinhof-Bande statt Baader-Meinhof-Gruppe&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Drahtzieher statt Verantwortlicher&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;zusammenrotten statt sich versammeln&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Baader-Meinhof-Bande statt Baader-Meinhof-Gruppe&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Drahtzieher statt Verantwortlicher&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;zusammenrotten statt sich versammeln&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dysphemismus</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Disfemizam</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Dysphemism</rdfs:seeAlso>
@@ -1469,10 +1469,10 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Verselement"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elision</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ausstoßung eines auslautenden unbetonten Vokals (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die ich rief, die Geister, / werd ich nun nicht los“ (Goethe: Der Zauberlehrling)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;So’n Quatsch statt so ein Quatsch&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Vorsicht vor dem Hund statt dem Hunde&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;dem Mann statt dem Manne&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die ich rief, die Geister, / werd ich nun nicht los“ (Goethe: Der Zauberlehrling)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;So’n Quatsch statt so ein Quatsch&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Vorsicht vor dem Hund statt dem Hunde&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;dem Mann statt dem Manne&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elision</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apokope/Synkope/Prokope sind aehnlich</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Elizija</rdfs:seeAlso>
@@ -1509,8 +1509,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ellipse</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mangel, Auslassung eines leicht zu ergaenzenden Wortes oder Satzteiles, das Gegenteil ist Aposiopese, die gerade das Wichtigste unausgesprochen laesst (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;&apos;Er gibt.&apos; fuer: Er gibt die Karten. (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&apos;Ich kann nicht&apos; &apos; Warum nicht?&apos; fuer: &apos;Warum kannst du es nicht?&apos;&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;&apos;Er gibt.&apos; fuer: Er gibt die Karten. (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&apos;Ich kann nicht&apos; &apos; Warum nicht?&apos; fuer: &apos;Warum kannst du es nicht?&apos;&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ellipse</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Elipsa</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Ellipsis</rdfs:seeAlso>
@@ -1544,8 +1544,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emphase</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nachdrueckliche Hervorhebung eines Wortes, oft akustisch oder mit Ausrufezeichen (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Beleidigungen sind die Argumente jener, die ueber keine Argumente verfuegen.&quot; (Jean-Jacques Rousseau)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&apos;Ich kann den Gedanken nicht ertragen, daß diese beiden einmal das Gut besitzen sollen; wenn nicht die Erbfolge waere, machte es mir nichts aus.&apos; &apos;Gar nichts machte mir etwas aus.&apos;&quot; (Jane Austen: Stolz und Vorurteil)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Beleidigungen sind die Argumente jener, die ueber keine Argumente verfuegen.&quot; (Jean-Jacques Rousseau)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&apos;Ich kann den Gedanken nicht ertragen, daß diese beiden einmal das Gut besitzen sollen; wenn nicht die Erbfolge waere, machte es mir nichts aus.&apos; &apos;Gar nichts machte mir etwas aus.&apos;&quot; (Jane Austen: Stolz und Vorurteil)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emphase</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Emfaza</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">emphasis</rdfs:seeAlso>
@@ -1578,9 +1578,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enallage</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertauschung, Setzung des Adjektivs vor ein anderes Nomen, als zu dem es logisch gehoert, das eigentliche Beziehungswort steht dann oft als Genitivattribut, wird synonym verwendet mit Hypallage (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Dunkel gingen sie durch die schweigende Nacht&quot; (Vergil)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der kalte Druck ihrer Haende, statt der Druck ihrer kalten Haende&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“in baldiger Erwartung Ihrer Antwort, statt in Erwartung Ihrer baldigen Antwort&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Dunkel gingen sie durch die schweigende Nacht&quot; (Vergil)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der kalte Druck ihrer Haende, statt der Druck ihrer kalten Haende&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“in baldiger Erwartung Ihrer Antwort, statt in Erwartung Ihrer baldigen Antwort&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enallage</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Enalaga</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">enallage</rdfs:seeAlso>
@@ -1622,8 +1622,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epenthese</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einschub eines Lautes in der Regel aus phonologischen Gruenden (Metzler)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Nahmest du statt nahmst du&quot; (aus rhythmischen Gruenden)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zeitlaeufte statt Zeitlaeufe&quot; (Archaisierende Wirkung)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Nahmest du statt nahmst du&quot; (aus rhythmischen Gruenden)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zeitlaeufte statt Zeitlaeufe&quot; (Archaisierende Wirkung)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epenthese</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Epenteza</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Epenthesis</rdfs:seeAlso>
@@ -1658,7 +1658,7 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanadiplose</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiederholung eines Wortes am Anfang und am Ende eines Satzes/Zeile</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Entbehren sollst du! sollst entbehren!; (Johann Wolfgang von Goethe: Faust)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Entbehren sollst du! sollst entbehren!; (Johann Wolfgang von Goethe: Faust)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanadiplose</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Epanalepsis</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -1691,7 +1691,7 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanalepse</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Wiederholung eines Wortes oder einer syntakt. Einheit (mit Satzglied- oder Satzfunktion). Die Epanalese verleiht durch die Wiederholung Nachdruck und Eindrücklichkeit (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Obwohl sie unter Wasser sind, unter Wasser versuchen sie zu fluchen&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Obwohl sie unter Wasser sind, unter Wasser versuchen sie zu fluchen&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanalepse</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Ploke</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -1724,8 +1724,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epipher</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Umkehr der Anapher, Wiederholung eines oder mehrerer Woerter am Satz- oder Versende (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mein Name ist Bond. James Bond.&quot; (James Bond)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wo fand man den Toten? Wer fand den Toten? Wie fand man den Toten?&quot; (Harold Pinter: Krieg)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mein Name ist Bond. James Bond.&quot; (James Bond)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wo fand man den Toten? Wer fand den Toten? Wie fand man den Toten?&quot; (Harold Pinter: Krieg)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epipher</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Epifora</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="de">Epiphora</rdfs:seeAlso>
@@ -1759,10 +1759,10 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epitheton</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ein schmueckendes Beiwort in formelhafter Verwendung, haeufig bei Homer (der listenreiche Odysseus, der silberne Mond). (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das austriakische Faschisterl Joerg Haider&quot; (Christian Bommarius)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Der liebe Gott&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die glorreichen Sieben&quot; (Filmtitel)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;eine bodenlose Frechheit&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das austriakische Faschisterl Joerg Haider&quot; (Christian Bommarius)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Der liebe Gott&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die glorreichen Sieben&quot; (Filmtitel)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;eine bodenlose Frechheit&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epitheton</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Epitet</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Epitheton</rdfs:seeAlso>
@@ -1796,8 +1796,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epizeuxis</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhetorische Form der Wiederholung einer drei- oder mehrgliedrigen unmittelbaren Wortfolge (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Nein! nein! nein! das kann nicht sein.“ (Friedrich Schiller: Die Raeuber)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Obwohl sie unter Wasser sind, unter Wasser versuchen sie unter Wasser zu fluchen&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Nein! nein! nein! das kann nicht sein.“ (Friedrich Schiller: Die Raeuber)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Obwohl sie unter Wasser sind, unter Wasser versuchen sie unter Wasser zu fluchen&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epizeuxis</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Epizeusa</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Epizeuxis</rdfs:seeAlso>
@@ -1830,9 +1830,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euphemismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unangenehmes mit angenehmen Worten sagen, eine beschoenigende Bezeichnung, auch Melioration genannt (Einkaufsparadies fuer Geschaeft). (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Jemanden neutralisieren statt umbringen&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Leistungsempfaenger statt Arme&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;orthographisch mutiges Protokoll fuer viele Rechtschreibfehler&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Jemanden neutralisieren statt umbringen&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Leistungsempfaenger statt Arme&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;orthographisch mutiges Protokoll fuer viele Rechtschreibfehler&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euphemismus</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Eufemizam</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Euphemism</rdfs:seeAlso>
@@ -1865,8 +1865,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exemplum</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beliebig herausgegriffener, typischer Einzelfall als Erklaerung fuer eine bestimmte Erscheinung oder einen bestimmten Vorgang (Duden)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Man wird sich der Frage stellen muessen: wie kommt es beispielsweise, dass alle 3 kleineren Parteien verloren haben an dieser Stelle. Einige noch mehr, erheblich mehr als wir. Aber das wir nicht in einer Situation mehr waren, wie in einer großen Koalition vor 4 Jahren.” (Juergen Trittin in der Elefantenrunde 2013)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wir haben den digitalen Fortschritt. Der veraendert unsere Arbeitswelt. Der veraendert unsere Lebenswelt. Und wie wir am Beispiel der Automobilindustrie Diesel sehen, ist zu kaempfen darum, dass wir auch in 10 Jahren noch so viel Arbeitsplaetze und mehr haben.&quot; (Angela Merkel im Kanzlerduell 2017)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Man wird sich der Frage stellen muessen: wie kommt es beispielsweise, dass alle 3 kleineren Parteien verloren haben an dieser Stelle. Einige noch mehr, erheblich mehr als wir. Aber das wir nicht in einer Situation mehr waren, wie in einer großen Koalition vor 4 Jahren.” (Juergen Trittin in der Elefantenrunde 2013)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wir haben den digitalen Fortschritt. Der veraendert unsere Arbeitswelt. Der veraendert unsere Lebenswelt. Und wie wir am Beispiel der Automobilindustrie Diesel sehen, ist zu kaempfen darum, dass wir auch in 10 Jahren noch so viel Arbeitsplaetze und mehr haben.&quot; (Angela Merkel im Kanzlerduell 2017)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exemplum</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Example</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Primer</rdfs:seeAlso>
@@ -1966,9 +1966,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gradation</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stufenweise Steigerung; Stufenfolge, Oberbegriff fuer Klimax und Antiklimax (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Goethe, groß als Forscher, groeßer als Dichter, am groeßten als Mensch&quot; (Duden)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Gut. Besser. Paulaner.&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Er sei mein Freund, mein Engel, mein Gott” (Friedrich Schiller: Die Raeuber)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Goethe, groß als Forscher, groeßer als Dichter, am groeßten als Mensch&quot; (Duden)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Gut. Besser. Paulaner.&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Er sei mein Freund, mein Engel, mein Gott” (Friedrich Schiller: Die Raeuber)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gradation</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Auxesis</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Gradacija</rdfs:seeAlso>
@@ -2011,11 +2011,11 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homoearkton</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redefigur, bei der die Anfaenge zweier aufeinanderfolgender Woerter gleich oder aehnlich lauten (z. B. Maedchen maehen…) (Duden)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Spiel, Spaß, Spannung, Schokolade.”  (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Keiner macht mich mehr an.”  (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Manner mag man eben.” (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Milch macht muede Maenner munter” (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Nur die Wirklichkeit wirkt wirklicher.” (Werbung)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Spiel, Spaß, Spannung, Schokolade.”  (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Keiner macht mich mehr an.”  (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Manner mag man eben.” (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Milch macht muede Maenner munter” (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Nur die Wirklichkeit wirkt wirklicher.” (Werbung)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homoearkton</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Homeoarkton</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="de">Homoioarkton</rdfs:seeAlso>
@@ -2049,10 +2049,10 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homoeoteleuton</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gleiche Endlaute aufeinanderfolgender Glieder (Reim) (&quot;Nimm lieber Rei - du sparst dabei&quot;). (Heike Mayer)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;In Huelle und Fuelle&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Nimm lieber Rei - du sparst dabei&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;hueben wie drueben &quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ohne Moos nix los&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;In Huelle und Fuelle&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Nimm lieber Rei - du sparst dabei&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;hueben wie drueben &quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ohne Moos nix los&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homoeoteleuton</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Homoeoteleuton</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="de">Homoioteleuton</rdfs:seeAlso>
@@ -2087,9 +2087,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypallage</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertauschung eines attributiven Genitivs mit einem attributiven Adjektiv und umgekehrt (z. B. „jagdliche Ausdruecke“ statt „Ausdruecke der Jagd“) (Duden)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Dunkel gingen sie durch die schweigende Nacht&quot; (Vergil)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der kalte Druck ihrer Haende statt der Druck ihrer kalten Haende&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“in baldiger Erwartung Ihrer Antwort, statt in Erwartung Ihrer baldigen Antwort)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Dunkel gingen sie durch die schweigende Nacht&quot; (Vergil)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der kalte Druck ihrer Haende statt der Druck ihrer kalten Haende&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“in baldiger Erwartung Ihrer Antwort, statt in Erwartung Ihrer baldigen Antwort)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypallage</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Hipalaga</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Hypallage</rdfs:seeAlso>
@@ -2129,8 +2129,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperbaton</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Das Umgestellte; Zwischenstellung eines Satzgliedes, das eigentlich an einer anderen Stelle im Satz stehen muesste, meist synonym mit Anastrophe und Inversion verwendet, allen drei Stilmitteln ist die empathische Wirkung gemeinsam, die erreicht wird, wenn das zu betonende Wort an den Satz-/Zeilenanfang oder an das SAtz-/Zeilenende gerueckt wird. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Aber Moritz aus der Tasche / Zieht die Flintenpulvertasche” (Wilhelm Busch: Max und Moritz)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Da macht ein Hauch mich von Verfall erzittern.” (Georg Trakl: Verfall)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Aber Moritz aus der Tasche / Zieht die Flintenpulvertasche” (Wilhelm Busch: Max und Moritz)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Da macht ein Hauch mich von Verfall erzittern.” (Georg Trakl: Verfall)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperbaton</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Hiperbat</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Hiperbaton</rdfs:seeAlso>
@@ -2164,9 +2164,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperbel</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uebermaß, ueber ein Ziel hinauswerfen; ueber- oder Untertreibung (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Gift und Galle spucken&quot; (Redewendung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;todmuede&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Unendlich genießen” (Werbung)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Gift und Galle spucken&quot; (Redewendung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;todmuede&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Unendlich genießen” (Werbung)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperbel</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Hiperbola</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Hyperbole</rdfs:seeAlso>
@@ -2215,9 +2215,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inversion</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdrehung; vom normalen grammatischen Satzbau abweichende Umstellung von Satzgliedern (Nach Berlin fahren morgen wir). (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Henkell trocken&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;aller Laster Anfang&quot; (Redewendung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;seines Glueckes Schmied&quot; (Spruch)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Henkell trocken&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;aller Laster Anfang&quot; (Redewendung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;seines Glueckes Schmied&quot; (Spruch)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inversion</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Inverzija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">anastrophe</rdfs:seeAlso>
@@ -2250,9 +2250,9 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ironie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verstellung, Spott; erheuchelte Unwissenheit, Verstellung; das Gegenteil des Gesagten ist gemeint, Ironie ist kontextabhaendig oder entsteht aus dem Widerspruch zu Person und Situation des sie Verwendenden; sie hat eine Alibifunktion, wenn man dadurch seine wahre Meinung verbirgt, dann ist der Widerspruch zum Kontext nur Eingeweihten erkennbar; sie kann aber auch einen spoettischen und aggressiven Charakter besitzen, wenn man das der Hoerererwartung entsprechende Werturteil in Form eines ironischen Lobes vortraegt. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das scheint ja Spaß zu machen. (Wenn das Gegenteil der Fall ist)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Schoene Bescherung&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ueberarbeite dich nicht! (Wenn jemand nichts macht)&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das scheint ja Spaß zu machen. (Wenn das Gegenteil der Fall ist)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Schoene Bescherung&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ueberarbeite dich nicht! (Wenn jemand nichts macht)&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ironie</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Ironija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Irony</rdfs:seeAlso>
@@ -2296,8 +2296,8 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</rdfs:isExample>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katachrese</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Missbrauch, Vermengung von nicht zusammengehoerenden Bildern, Stil- oder Bildbruch, Verbindung von mindestens zwei metaphorischen Ausdruecken aus unvereinbaren Bildbereichen (Berner)
 Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn legt mal ein Ei&quot;</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Atommeiler&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Buchruecken&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Atommeiler&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Buchruecken&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katachrese</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Catachresis</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Katahreza</rdfs:seeAlso>
@@ -2354,11 +2354,11 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Litotes</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SChlichtheit, Abschwaechung, Hervorhebung eines Begriffs durch Verneinung des Gegenteils, bei doppelter Verneinung Bejahung, kann ironisch und als Anspielung verwendet werden. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das war nicht anders zu erwarten&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Und diese Zeit, geliebte Mitbuerger, ist nicht ferne.&quot; (Georg Buechner: Der hessische Landbote)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wir wissen doch, dass es keine Aufgabe weniger Jahre ist.&quot; (Joschka Fischer)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Es war keine Reise, waehrend der wir uns nicht auch selbstverstaendlich mit den Vertretern der Zivilgesellschaften und der Menschenrechtsorganisationen getroffen haben. 
-(Joschka Fischer)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das war nicht anders zu erwarten&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Und diese Zeit, geliebte Mitbuerger, ist nicht ferne.&quot; (Georg Buechner: Der hessische Landbote)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wir wissen doch, dass es keine Aufgabe weniger Jahre ist.&quot; (Joschka Fischer)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Es war keine Reise, waehrend der wir uns nicht auch selbstverstaendlich mit den Vertretern der Zivilgesellschaften und der Menschenrechtsorganisationen getroffen haben. 
+(Joschka Fischer)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Litotes</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Litota</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Litotes</rdfs:seeAlso>
@@ -2391,9 +2391,9 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metapher</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auf etwas uebetragen; eine Figur bildhaften Sprechens, die Verwendung eines Wortes nicht im eigentlichen (lexikalischen), sondern (uneigentlichen) uebertragenen Sinn; die uebertragung eines Wortes in eine kontextuelle Bildvorstellung unter Beibehaltung eines aehnlichkeitsbezuges. &quot;Eine Metapher ist ein Wort in einem Kontext, durch den es so determiniert wird, dass es etwas anderes meint, als es bedeutet.&quot; (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Gruenen reden viel ueber Zukunft, aber sobald es in ihrem Programmentwurf konkret wird, bieten sie nur linke, kostenintensive Rezepte an. Das erinnert an einen Fliegenpilz: Sieht schoen aus, ist aber ungenießbar.&quot; (CDU ueber das Wahlprogramm der Gruenen 2021)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Mafia hat Metastasen in allen fuenf Kontinenten&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Unbenommen dessen, das auf diesem Klavier immer so ein paar Propaganda-Toene von der CDU angestimmt worden sind, die SPD wuerde doch von hinten durch die Brust ins Auge, diese verlaesslichen Aussagen wieder zuruecknehmen.” (Sprecher der SPD 2013)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Gruenen reden viel ueber Zukunft, aber sobald es in ihrem Programmentwurf konkret wird, bieten sie nur linke, kostenintensive Rezepte an. Das erinnert an einen Fliegenpilz: Sieht schoen aus, ist aber ungenießbar.&quot; (CDU ueber das Wahlprogramm der Gruenen 2021)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Mafia hat Metastasen in allen fuenf Kontinenten&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Unbenommen dessen, das auf diesem Klavier immer so ein paar Propaganda-Toene von der CDU angestimmt worden sind, die SPD wuerde doch von hinten durch die Brust ins Auge, diese verlaesslichen Aussagen wieder zuruecknehmen.” (Sprecher der SPD 2013)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metapher</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Metafora</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Metaphor</rdfs:seeAlso>
@@ -2425,9 +2425,9 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metathese</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(&quot;Umstellung&quot;. Auch: Transposition) Lautwandel, der in der Umstellung eines Lautes oder Vertauschung von Lauten innerhalb von Woertern besteht. Haeufig auch bei Entlehnung und in der Kindersprache. Die Vertauschung kann (a) innerhalb einer Silbe oder (b) von einer Silbe in eine andere erfolgen. (Metzler)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;fromage &lt; formaticum&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;mramor &lt; Marmor&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;palabra &lt; parabola&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;fromage &lt; formaticum&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;mramor &lt; Marmor&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;palabra &lt; parabola&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metathese</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Metateza</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Metathesis</rdfs:seeAlso>
@@ -2461,9 +2461,9 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metonymie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Umbenennung, ein gebraeuchliches Wort wird durch ein anderes ersetzt, das zu ihm in enger Beziehung steht (Begriffsubstitution), eng verwandt mit der Synekdoche (pars pro toto) (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Alle unter einem Dach (Bestandteil fuer gesamtes Konstrukt)&quot; (Fernsehserie)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Goethe lesen (Autor fuer Werk)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;einen Porsche fahren (Erfinder fuer Erfindung)&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Alle unter einem Dach (Bestandteil fuer gesamtes Konstrukt)&quot; (Fernsehserie)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Goethe lesen (Autor fuer Werk)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;einen Porsche fahren (Erfinder fuer Erfindung)&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metonymie</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Metonimija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Metonymy</rdfs:seeAlso>
@@ -2517,9 +2517,9 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onomatopoesie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laut- oder Klangmalerei. Die sprachliche Nachahmung einer nicht-sprachlichen, meist optischen, akustischen oder haptischen Sinneswahrnehmung, die aber nur imitiert, nicht reproduziert werden kann, sie zielt ab auf die Stimulierung von Emotionen oder sinnlicher oder synaesthetischer Wirkungen bei den Rezipienten (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Den Herrn im Frack: ta ta ta ta ta tatt!&quot; (Paul Boldt: Hinrichtung 1913)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Kennst du das einsame Hemmed? Flatterata, flatterata.&quot; (Christian Morgenstern)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Miau, Wuff, Kuckuck&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Den Herrn im Frack: ta ta ta ta ta tatt!&quot; (Paul Boldt: Hinrichtung 1913)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Kennst du das einsame Hemmed? Flatterata, flatterata.&quot; (Christian Morgenstern)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Miau, Wuff, Kuckuck&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onomatopoesie</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Onomatopeja</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Onomatopoeia</rdfs:seeAlso>
@@ -2554,11 +2554,11 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxymoron</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbindung zweier sich ausschließender logischer Begriffe in einem Kompositum oder als contradictio in adiecto (Widerspruch im Beiwort) ein Nomen mit gegensaetzlichem Adjektivattribut (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Little big man&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;bittersueß&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gezwungenermaßen freiwillig&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;heiße Kaelte&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;zwangloser Zwang&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Little big man&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;bittersueß&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gezwungenermaßen freiwillig&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;heiße Kaelte&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;zwangloser Zwang&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxymoron</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Oksimoron</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">oxymoron</rdfs:seeAlso>
@@ -2592,13 +2592,13 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palindrom</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eine Buchstabenfolge, die rueckwaerts gelesen denselben Wortlaut oder zumindest einen Sinn ergibt; ist natuerlich kein Stilmittel, kommt aber auch in der Lyrik vor. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Liebe ist Sieger; stets rege ist sie bei Leid&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Dreh mal am Herd&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Erika feuert nur untreue Fakire&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Lagerregal / Regallager&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Reittier&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Reliefpfeiler&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Rentner&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Liebe ist Sieger; stets rege ist sie bei Leid&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Dreh mal am Herd&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Erika feuert nur untreue Fakire&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Lagerregal / Regallager&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Reittier&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Reliefpfeiler&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Rentner&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palindrom</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Palindrom</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Palindrome</rdfs:seeAlso>
@@ -2627,9 +2627,9 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:istRhetorischeGruppe rdf:resource="https://ramonakuehn.de/grhoot.owl#Gedankenfigur"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parabel</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gleichnishafte belehrende Erzaehlung, Geschichte, Szene o. ae. (Duden)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Er sagte aber zu ihnen dies Gleichnis und sprach: Welcher Mensch ist unter euch, der hundert Schafe hat und, wenn er eines von ihnen verliert, nicht die neunundneunzig in der Wueste laesst und geht dem verlorenen nach, bis er’s findet?
-Und wenn er’s gefunden hat, so legt er sich’s auf die Schultern voller Freude. Und wenn er heimkommt, ruft er seine Freunde und Nachbarn und spricht zu ihnen: Freut euch mit mir; denn ich habe mein Schaf gefunden, das verloren war. Ich sage euch: So wird auch Freude im Himmel sein ueber einen Suender, der Buße tut, mehr als ueber neunundneunzig Gerechte, die der Buße nicht beduerfe&quot; (Bibelverse)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vor dem Gesetz steht ein Tuerhueter. Zu diesem Tuerhueter kommt ein Mann vom Lande und bittet um Eintritt in das Gesetz. Aber der Tuerhueter sagt, daß er ihm jetzt den Eintritt nicht gewaehren koenne. Der Mann ueberlegt und fragt dann, ob er also spaeter werde eintreten duerfen.
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Er sagte aber zu ihnen dies Gleichnis und sprach: Welcher Mensch ist unter euch, der hundert Schafe hat und, wenn er eines von ihnen verliert, nicht die neunundneunzig in der Wueste laesst und geht dem verlorenen nach, bis er’s findet?
+Und wenn er’s gefunden hat, so legt er sich’s auf die Schultern voller Freude. Und wenn er heimkommt, ruft er seine Freunde und Nachbarn und spricht zu ihnen: Freut euch mit mir; denn ich habe mein Schaf gefunden, das verloren war. Ich sage euch: So wird auch Freude im Himmel sein ueber einen Suender, der Buße tut, mehr als ueber neunundneunzig Gerechte, die der Buße nicht beduerfe&quot; (Bibelverse)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vor dem Gesetz steht ein Tuerhueter. Zu diesem Tuerhueter kommt ein Mann vom Lande und bittet um Eintritt in das Gesetz. Aber der Tuerhueter sagt, daß er ihm jetzt den Eintritt nicht gewaehren koenne. Der Mann ueberlegt und fragt dann, ob er also spaeter werde eintreten duerfen.
 
 “Es ist moeglich«, sagt der Tuerhueter, »jetzt aber nicht.” [...]
 “Was willst du denn jetzt noch wissen?” fragt der Tuerhueter, “Du bist unersaettlich.”
@@ -2638,7 +2638,7 @@ Und wenn er’s gefunden hat, so legt er sich’s auf die Schultern voller Freud
 
 Der Tuerhueter erkennt, daß der Mann schon an seinem Ende ist, und, um sein vergehendes Gehoer noch zu erreichen, bruellt er ihn an:
 
-“Hier konnte niemand sonst Einlaß erhalten, denn dieser Eingang war nur fuer dich bestimmt. Ich gehe jetzt und schließe ihn:” (Frank Kafka: Ausschnitt aus der Parabel Vor dem Gesetz)</rdfs:isExample>
+“Hier konnte niemand sonst Einlaß erhalten, denn dieser Eingang war nur fuer dich bestimmt. Ich gehe jetzt und schließe ihn:” (Frank Kafka: Ausschnitt aus der Parabel Vor dem Gesetz)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parabel</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Parabola</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Parabola</rdfs:seeAlso>
@@ -2671,10 +2671,10 @@ Der Tuerhueter erkennt, daß der Mann schon an seinem Ende ist, und, um sein ver
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paradoxon</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eine scheinbar alogische Behauptung, (die aber hinter dem vordergruendig Unsinnigen auf eine tiefere Wahrheit verweist) eine der ueblichen Meinung widersprechende Formulierung, die dennoch spaeter eine ueberraschende SInnhaftigkeit offenbart, eine der Logik der allgemeinen Meinung und Erfahunrg widersprechende Behauptung, die sich jedoch bei naeherer Betrachtung als richtig erweist, dem allgemein Geglaubten oder Erwarteten zuwiderlaufend. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Es muss gespart werden - koste es was es wolle.&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Weniger ist mehr.&quot; (Ausspruch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wenn alle Stricke reißen, kann man sich immer noch aufhaengen.&quot; (Rolf Miller)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich weiß, dass ich nichts weiß.” (Spruch)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Es muss gespart werden - koste es was es wolle.&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Weniger ist mehr.&quot; (Ausspruch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wenn alle Stricke reißen, kann man sich immer noch aufhaengen.&quot; (Rolf Miller)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich weiß, dass ich nichts weiß.” (Spruch)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paradoxon</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Paradoks</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Paradox</rdfs:seeAlso>
@@ -2716,10 +2716,10 @@ Der Tuerhueter erkennt, daß der Mann schon an seinem Ende ist, und, um sein ver
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parallelismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiederholung derselben syntaktischen Konstruktion in mindestens zwei aufeinander folgenden Satzgliedern (gr. Isokolon) oder in dreien (gr. Trikolon), oft mit einer Steigerung oder wachsenden Gliedern verbunden. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Stadt ist groß und das Gehalt ist klein.”</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Einer besitzt alle Guete und der andere besitzt den Anschein davon.” (Jane Austen: Stolz und Vorurteil)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich bin entdeckt, ich bin durchschaut.” (Friedrich Schiller: Maria Stuart)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Sie hoeren weit, sie sehen fern.” (Erich Kaestner)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Stadt ist groß und das Gehalt ist klein.”</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Einer besitzt alle Guete und der andere besitzt den Anschein davon.” (Jane Austen: Stolz und Vorurteil)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich bin entdeckt, ich bin durchschaut.” (Friedrich Schiller: Maria Stuart)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Sie hoeren weit, sie sehen fern.” (Erich Kaestner)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parallelismus</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Paralelizam</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Parallelism</rdfs:seeAlso>
@@ -2753,9 +2753,9 @@ Der Tuerhueter erkennt, daß der Mann schon an seinem Ende ist, und, um sein ver
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parenthese</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einfuegung; Einschub eines satzwertigen (grammatisch vollstaendigen) Satzes in einen anderen Satz, ohne dessen syntaktische Ordnung zu veraendern, durch Gedankenstriche, Klammern oder Kommata gekennzeichnet</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das ist - wie ich bereits gesagt habe - eine wichtige Angelegenheit
-Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit der Opposition, das ist ja gar keine Frage. Jetzt will ich nur deutlich machen: Ich habe bis-her immer wieder gehoert was mit der SPD so dramatisches passiert ist, als wir in der Großen Koalition zusammen gearbeitet haben und dann will ich einfach sagen:&quot; (Angela Merkel: Elefantenrunde 2013)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Wir kamen - das werde ich nie vergessen - voellig durchnaesst an.” (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das ist - wie ich bereits gesagt habe - eine wichtige Angelegenheit
+Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit der Opposition, das ist ja gar keine Frage. Jetzt will ich nur deutlich machen: Ich habe bis-her immer wieder gehoert was mit der SPD so dramatisches passiert ist, als wir in der Großen Koalition zusammen gearbeitet haben und dann will ich einfach sagen:&quot; (Angela Merkel: Elefantenrunde 2013)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Wir kamen - das werde ich nie vergessen - voellig durchnaesst an.” (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parenthese</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Parenteza</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Parenthesis</rdfs:seeAlso>
@@ -2779,7 +2779,7 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetorischeGruppe"/>
             </owl:Restriction>
         </rdf:type>
-        <owl:istSynonym rdf:resource="https://ramonakuehn.de/grhoot.owl#Prolepse"/>
+        <ont:istSynonym rdf:resource="https://ramonakuehn.de/grhoot.owl#Prolepse"/>
         <ont:istEinWiederholbaresElementDerZweitenArt rdf:resource="https://ramonakuehn.de/grhoot.owl#Wortelement"/>
         <ont:istLinguistischeGruppe rdf:resource="https://ramonakuehn.de/grhoot.owl#Morphologisch"/>
         <ont:istLinguistischeGruppe rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntaktisch"/>
@@ -2790,9 +2790,9 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paronomasie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein Wort umbilden; Wortspiel aus der Klang- und Lautaehnlichkeit zweier stammverschiedener Woerter bei deren Bedeutungsfremdheit, spaeter nur Woerter aehnlichen Klangs, auch Wortspiel aus der aehnlichkeit eines Lautes in zwei Woertern, heute synonym mit Annominatio verwendet, siehe auch: Wortspiel (Berner).</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Urbi et orbi&quot; (Segen des Papstes)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Lieber arm dran, als Arm ab.” (Sprichwort)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Wer rastet, der rostet” (Sprichwort)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Urbi et orbi&quot; (Segen des Papstes)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Lieber arm dran, als Arm ab.” (Sprichwort)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Wer rastet, der rostet” (Sprichwort)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paronomasie</rdfs:label>
         <rdfs:seeAlso xml:lang="de">Annominatio</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Paronomasia</rdfs:seeAlso>
@@ -2825,10 +2825,10 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periphrase</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Umschreibung durch kennzeichnende Taetigkeiten, Eigenschaften oder Wirkungen, auch zur Vermeidung eines alltaeglichen Ausdruckes oder zur verhuellenden Nennung benutzt, je nach Ausdrucksabsicht erfasst die Periphrase immer nur *ein* Kennzeichen von vielen: Rom - die ewige Stadt, die Hauptstadt Italiens, die Stadt der sieben Huegel. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Großer Teich (Atlantischer Ozean)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Goetter in Weiß (aerzte)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;das Auge des Gesetzes (Polizei)&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;das Land, wo Milch und Honig fließen (Kanaan)&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Großer Teich (Atlantischer Ozean)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Goetter in Weiß (aerzte)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;das Auge des Gesetzes (Polizei)&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;das Land, wo Milch und Honig fließen (Kanaan)&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periphrase</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Antonomazija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Cirkumlokucija</rdfs:seeAlso>
@@ -2865,10 +2865,10 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personifikation</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personifizierung, Vermenschlichung, Belebung von Naturerscheinungen, Gegenstaenden oder von Abstrakta; (Jetzt lacht das Glueck uns an) (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wird Deutschland es schaffen, rechtzeitig aus der Krise zu kommen?&quot; (Politiker der Union 2009)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Himmel weint&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Sturm tobte&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Waschmaschinen leben laenger mit Calgon.” ( Werbung)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wird Deutschland es schaffen, rechtzeitig aus der Krise zu kommen?&quot; (Politiker der Union 2009)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Himmel weint&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Sturm tobte&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Waschmaschinen leben laenger mit Calgon.” ( Werbung)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personifikation</rdfs:label>
         <rdfs:seeAlso xml:lang="de">Anthropomorphismus</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Personification</rdfs:seeAlso>
@@ -2943,15 +2943,15 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleonasmus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synonymer Zusatz zu einem Wort, Hinzufuegen eines ueberfluessigen WOrtes, das schon im Nomen enthalten ist, alle redundanten (ueberfluessigen) Formulierungen ohne zusaetzlichen Informationswert (ein alter Greis, ein schwarzer Rappe) (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Alter Greis&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ein gratis Geschenk&quot; (Beamtendeutsch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Getroffene Vereinbarung&quot; (Beamtendeutsch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Rueckantwort&quot; (Beamtendeutsch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Rueckstau&quot; (Beamtendeutsch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Sie redete mit ihrem Mund&quot; (Virgil)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Vorankuendigung&quot; (Beamtendeutsch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Vorentwurf&quot; (Beamtendeutsch)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Weißer Schimmel&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Alter Greis&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ein gratis Geschenk&quot; (Beamtendeutsch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Getroffene Vereinbarung&quot; (Beamtendeutsch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Rueckantwort&quot; (Beamtendeutsch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Rueckstau&quot; (Beamtendeutsch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Sie redete mit ihrem Mund&quot; (Virgil)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Vorankuendigung&quot; (Beamtendeutsch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Vorentwurf&quot; (Beamtendeutsch)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Weißer Schimmel&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleonasmus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Pleonasm</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Pleonazam</rdfs:seeAlso>
@@ -2985,8 +2985,8 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyptoton</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vielfach flektierte Wortwiederholung; Wiederholung desselben Wortes innerhalb eines Satzes oder eines Syntagmas (Wortgruppe in einer syntaktischen Verbindung, meist ohne Subjekt und Praedikat) in verschiedenen Beugungsstufen (nicht nur Kasus) (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das deutsche Volk ist einfach zusammengebaut: Die besserverdienenden und die, die es nicht besser verdient haben&quot; (Heinrich Pachl)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Sie waren muede, und sie genossen die Muedigkeit&quot; (Wolfgang Koeppen: Der Tod in Rom)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das deutsche Volk ist einfach zusammengebaut: Die besserverdienenden und die, die es nicht besser verdient haben&quot; (Heinrich Pachl)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Sie waren muede, und sie genossen die Muedigkeit&quot; (Wolfgang Koeppen: Der Tod in Rom)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyptoton</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Poliptoton</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Polyptoton</rdfs:seeAlso>
@@ -3019,7 +3019,7 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetorischeGruppe"/>
             </owl:Restriction>
         </rdf:type>
-        <owl:istSynonym rdf:resource="https://ramonakuehn.de/grhoot.owl#Paronomasie"/>
+        <ont:istSynonym rdf:resource="https://ramonakuehn.de/grhoot.owl#Paronomasie"/>
         <ont:istLinguistischeGruppe rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantisch"/>
         <ont:istLinguistischeGruppe rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntaktisch"/>
         <ont:einWeiteresElementWirdAlsPositiveAntwortHinzugefuegt rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenelement"/>
@@ -3030,10 +3030,10 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prolepse</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vorwegnahme, die grammatische Vorwegnahme des Subjekts eines Gliedsatzes in den Hauptsatz als Objekt, in der Linguistik Linksversetzung genannt, eine Form der Asuklammerung, die, da sie sowohl am linken als auch am rechten Satzrand moeglich ist, natuerlich auch als Rechtsversetzung erscheinen kann. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich glaube, Sie wuenschen schon lange, dass ich gehe, und ich habe auch keinen Grund zu bleiben, außer der großen Sorgen, die ich aufrichtig mit Ihnen teile.” (Jane Austen: Stolz und Vorurteil)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Natuerlich koennte man jetzt einwenden…” (Besprechung eines kontroversen Themas)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Sollte Lady Catherine wirklich so denken?” (Jane Austen: Stolz und Vorurteil)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Wohlan, nun walte Gott, Unheil geschieht.” (Hildebrandslied)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich glaube, Sie wuenschen schon lange, dass ich gehe, und ich habe auch keinen Grund zu bleiben, außer der großen Sorgen, die ich aufrichtig mit Ihnen teile.” (Jane Austen: Stolz und Vorurteil)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Natuerlich koennte man jetzt einwenden…” (Besprechung eines kontroversen Themas)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Sollte Lady Catherine wirklich so denken?” (Jane Austen: Stolz und Vorurteil)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Wohlan, nun walte Gott, Unheil geschieht.” (Hildebrandslied)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prolepse</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Preduhitrenje</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Prolepsa</rdfs:seeAlso>
@@ -3067,8 +3067,8 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prosopopoeie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eng verwandt zur Personifikation, oft synonym verwendet. Prosopopoeie gibt den Dingen eine Stimme</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Sturm tobt&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die Zeit rennt&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;der Sturm tobt&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die Zeit rennt&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prosopopoeie</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Prosopopoeia</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Prozopopeja</rdfs:seeAlso>
@@ -3100,9 +3100,9 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prothese</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anfuegung eines Lautes am Wortanfang. Prothese kann Resultat falscher Abtrennung an der Wortgrenze sein, z.B. dt. dial. nast &lt; ein Ast. Insbesondere tritt die vokal. und kons. P (bevorzugt mit [v], [j], [γ]) aber aus silbenstrukturellen Gruenden auf (a) bei wortinitialen Konsonantenclustern, etwa im Frz. und Span., sowie (b) bei vokal. Anlaut, etwa in verschiedenen slav. und roman. Spr. und Dialekten, z.B. (a) frz. esprit &lt; lat. spiritus (Metzler)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Vorankuendigung (statt Ankuendigung)&quot; (Buerokratische oder akademische Tautologien)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;darauf abzielen (statt darauf zielen)&quot; (Buerokratische oder akademische Tautologien)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;in den allermeisten Faellen (statt in den meisten) &quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Vorankuendigung (statt Ankuendigung)&quot; (Buerokratische oder akademische Tautologien)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;darauf abzielen (statt darauf zielen)&quot; (Buerokratische oder akademische Tautologien)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;in den allermeisten Faellen (statt in den meisten) &quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prothese</rdfs:label>
         <rdfs:seeAlso xml:lang="de">Prosthese</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Prosthesis</rdfs:seeAlso>
@@ -3139,7 +3139,7 @@ Und in der Europa-Politik haben wir viele Gemeinsamkeiten gehabt. Und auch mit d
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akrostichon</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Initialen eines Satzes ergeben hintereinander gelesen einen SInn oder ein Wort oder eine Reihenfolge. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wer hat mich guoter her gelesen?
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wer hat mich guoter her gelesen?
 Ist ez ieman gewesen
 Lebende in solcher wise,
 Lobe er mich, des mich prise
@@ -3147,7 +3147,7 @@ Ez si man oder wip,
 Habe er so getriuwen lip,
 Ane velsche sol er mich
 Lieben – daz ist friuntlich –
-Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfangsbuchstaben ergeben &quot;Willehalm&quot;)</rdfs:isExample>
+Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfangsbuchstaben ergeben &quot;Willehalm&quot;)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akrostichon</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Acrostic</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3177,8 +3177,8 @@ Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfan
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synaesthesie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitempfinden, das Ausdruecken einer Sinnesempfindung, die aus der Verschmelzung verschiedener nicht kompatibler Reize auf *ein* Sinnesorgan hervorgeht, die Wahrnehmung *eines* Reizes bewirkt zugleich die Erregung einer anderen Wahrnehmungsweise, so dass man Farben hoeren oder Toene sehen kann, so dass eine Stimme weich (Tastsinn), warm (Waermeempfinden), scharf (Geschmack), oder dunkel (Sehen) empfunden werden kann. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Sueßer die Glocken nie klingen&quot; (Weihnachtslied)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;golden wehn die Toene nieder&quot; (Clemens Brentano: Abendstaendchen)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Sueßer die Glocken nie klingen&quot; (Weihnachtslied)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;golden wehn die Toene nieder&quot; (Clemens Brentano: Abendstaendchen)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synaesthesie</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Synaesthesia</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3209,7 +3209,7 @@ Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfan
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Correctio</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbesserung eines gewaehlten, aber zu schwach empfundenen Ausdruckes. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das Buch ist schlecht, ja grauenhaft!&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das Buch ist schlecht, ja grauenhaft!&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Correctio</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Correctio</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3249,10 +3249,10 @@ Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfan
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neologismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wortneuschoepfung, manchmal gewollt, gewagt und ueberfluessig, manche Neuwoerter werden usualisiert und lexikalisiert oder eingedeutscht (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Brunch&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Kurlaub&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Selfie&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wandstand&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Brunch&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Kurlaub&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Selfie&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wandstand&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neologismus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Neologism</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3290,8 +3290,8 @@ Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfan
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pejoration</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In der Sprachwissenschaft ein Wort, dessen Bedeutung sich im Lauf der Entwicklung verschlechtert hat (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot; Hoeren Sie mal Fraeulein!&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Weib&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot; Hoeren Sie mal Fraeulein!&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Weib&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pejoration</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Pejoration</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3328,8 +3328,8 @@ Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfan
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonomasie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein Eigenname steht fuer den Gattungsnamen oder umgekehrt, der metonymische Ausdrucksersatz kann auch in Sonderformen auftreten, naemlich: als Patronymikon […]. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das heilige Land statt Israel&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die ewige Stadt fuer Rom&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das heilige Land statt Israel&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die ewige Stadt fuer Rom&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonomasie</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Antonomasia</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3361,9 +3361,9 @@ Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfan
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hendiadyoin</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eins durch zwei; Wiedergabe einer Vorstellung durch zwei gleichwertige, mit „und“ verbundene Woerter, wobei die Nebenordnung die logische Unterordnung ersetzt, oder wo zwei mit „und“ verbundene Nomen ein Nomen mit Genitiv- od. Adjektivattribut ersetzen oder wo zwei synonyme Nomina statt eines einzigen Nomens gesetzt werden. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;immer und ewig&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;in Eisen und Ruestung&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;nie und nimmer&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;immer und ewig&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;in Eisen und Ruestung&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;nie und nimmer&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hendiadyoin</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Hendiadys</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3397,8 +3397,8 @@ Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfan
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paralipse</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unterlassung; eine rhetorische Figur, bei der man von etwas Bestimmtem erklaert, man wolle es uebergehen, es aber doch erwaehnt und dadurch hervorhebt, oft eingeleitet durch Wendungen wie „ich will nicht davon sprechen, dass …“ (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zur Politik gibt es viel zu sagen, aber lassen wir das!&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ich will nicht davon sprechen, dass ...&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zur Politik gibt es viel zu sagen, aber lassen wir das!&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ich will nicht davon sprechen, dass ...&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paralipse</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Paralipsis</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3462,13 +3462,13 @@ Mit sueezer sinne stiure … &quot; (Rudolf von Ems: Willehalm von Orlens; Anfan
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trikolon</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Veni, vidi, vici&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Verliebt, verlobt, verheiratet&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Es ist so bequem, unmuendig zu sein.
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Veni, vidi, vici&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Verliebt, verlobt, verheiratet&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Es ist so bequem, unmuendig zu sein.
 Habe ich ein Buch, das fuer mich Verstand hat,
 einen Seelsorger, der fuer mich Gewissen hat,
 einen Arzt, der fuer mich die Diaet beurteilt usw.,
-so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</rdfs:isExample>
+so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trikolon</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Tricolon</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3495,8 +3495,8 @@ so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</rdfs:isExam
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isokolon</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gleiche Worte fast gleicher Silbenzahl stehen in gleichgeordneten Saetzen/Satzteilen, heute wird stattdessen durchweg die Bezeichnung Parallelismus verwendet. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Daraus der Geist der Gottheit strahlt und glueht, Daraus der Wein der Weisheit schaeumt und sprueht.“ (Hugo von Hofmannsthal: Was ist die Welt?)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Im Namen des Vaters, im Namen des Sohnes und im Namen des Heiligen Geistes. Amen.“ (Gebet)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Daraus der Geist der Gottheit strahlt und glueht, Daraus der Wein der Weisheit schaeumt und sprueht.“ (Hugo von Hofmannsthal: Was ist die Welt?)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Im Namen des Vaters, im Namen des Sohnes und im Namen des Heiligen Geistes. Amen.“ (Gebet)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isokolon</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Isocolon</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3529,8 +3529,8 @@ so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</rdfs:isExam
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein zu zwei Saetzen gehoerender Satzteil steht ohne Bindewort in der Mitte. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Was sein Pfeil erreicht, das ist seine Beute, was da kreucht und fleucht.&quot; (Friedrich Schiller: Wilhelm Tell)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die Tuecher knattern im heißen Wind treibst du&quot; (Enzensberger)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Was sein Pfeil erreicht, das ist seine Beute, was da kreucht und fleucht.&quot; (Friedrich Schiller: Wilhelm Tell)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die Tuecher knattern im heißen Wind treibst du&quot; (Enzensberger)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apokoinu</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Apokoinou</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3571,9 +3571,9 @@ so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</rdfs:isExam
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interjektion</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woerter oder Wortgruppen, die in einen Satz eingeschoben werden, ohne dass dies syntaktisch gerechtfertigt ist. Sie dienen haeufig dem Ausdruck von Gefuehlen oder der Kontaktaufnahme und sind oft lautmalerisch, z.B. Hoppla!, Brr, Hallo, hallo! (Metzler)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Aua!&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Hoppla!&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;hmm&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Aua!&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Hoppla!&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;hmm&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interjektion</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Interjection</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3603,8 +3603,8 @@ so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</rdfs:isExam
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anastrophe</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auch Hyperbaton genannt, empathische Umstellung eines Wortes aus seiner urspruenglichen Position, oft anstelle des Adjektivattributes vor dem Nomen hinter das zugehoerende Substantiv gestellt. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;kleines Haenschen = Haenschen klein&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„ohne Zweifel = zweifelsohne“</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;kleines Haenschen = Haenschen klein&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„ohne Zweifel = zweifelsohne“</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anastrophe</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Anastrophe</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3630,9 +3630,9 @@ so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</rdfs:isExam
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epitheton Ornans</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein schmueckendes Beiwort in formelhafter Verwendung, haeufig bei Homer (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;bluehende Wiese&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;eulenaeugige Athene&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gruene Wiese&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;bluehende Wiese&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;eulenaeugige Athene&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gruene Wiese&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epitheton Ornans</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Epitheton Ornans</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3662,7 +3662,7 @@ so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</rdfs:isExam
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altertuemlichkeit; Gebrauch veralteter Woerter oder Wendungen , auch: Antiquitas genannt. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mein Oheim ist mit Kind und Kegel geflohen.&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mein Oheim ist mit Kind und Kegel geflohen.&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaismus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Archaism</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3692,11 +3692,11 @@ so brauche ich mich ja nicht selbst zu bemuehen.“ (Immanuel Kant)</rdfs:isExam
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachylogie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuerze; Knappheit des Ausdrucks im Gegensatz zu dessen Abundanz ( ueberstroemen, ueberfluss) wie sie in der Amplifikation sich aeußert; mit deren Abklingen in der nachbarocken Zeit kaum noch als Stilmittel eingesetzt. Grundzuege der Brachylogie haben sich erhalten in den Begriffen „lakonischer“ oder „Lapidarstil“ […], eine sinnvolle Kuerze statt eines aufgeblaehten Schwulstes gilt heutzutage als anerkannt guter Stil. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;WALTER: – – – Kann jemand anders hier im Orte nicht – ?
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;WALTER: – – – Kann jemand anders hier im Orte nicht – ?
 ADAM: Nein, in der Tat –
 WALTER: Der Prediger vielleicht.
 ADAM: Der Prediger? Der –
-WALTER: Oder Schulmeister.&quot; (Heinrich von Kleist)</rdfs:isExample>
+WALTER: Oder Schulmeister.&quot; (Heinrich von Kleist)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachylogie</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Brachylogy</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3728,7 +3728,7 @@ WALTER: Oder Schulmeister.&quot; (Heinrich von Kleist)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polysyndeton</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reihe von Woertern, Satzteilen, Saetzen, deren Glieder durch Konjunktionen miteinander verbunden sind (Duden)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Und es wallet und siedet und brauset und zischt,&quot; (Friedrich Schiller)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Und es wallet und siedet und brauset und zischt,&quot; (Friedrich Schiller)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polysyndeton</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Polysyndeton</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3765,7 +3765,7 @@ WALTER: Oder Schulmeister.&quot; (Heinrich von Kleist)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraphrase</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternativformulierung, umschreibende Verdeutlichung. […] Das Wesen der Paraphrase besteht darin, den Inhalt eines Textes mir eigenen Worten wiederzugeben, also das Gleiche, meist auf ein Drittel verkuerzt, mit anderen Worten zu sagen. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;sprich&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;sprich&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraphrase</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Paraphrase</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3802,10 +3802,10 @@ WALTER: Oder Schulmeister.&quot; (Heinrich von Kleist)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiklimax</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gradation (Stufenfolge) nach unten (anit: gegen, climax: Leiter, Treppe). (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Erst gehoert uns die Welt nicht mehr, dann das Land und jetzt die Stadt”</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Um den Papst zirkulieren die Kardinaele.
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Erst gehoert uns die Welt nicht mehr, dann das Land und jetzt die Stadt”</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Um den Papst zirkulieren die Kardinaele.
 Und um die Kardinaele zirkulieren die Bischoefe.
-Und um die Bischoefe zirkulieren die Sekretaere”.</rdfs:isExample>
+Und um die Bischoefe zirkulieren die Sekretaere”.</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiklimax</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Anticlimax</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3836,7 +3836,7 @@ Und um die Bischoefe zirkulieren die Sekretaere”.</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metonomasie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Umbenennung; Veraenderung des Namens durch uebersetzung oder Angleichung in/an eine andere Sprache, auch Traduktionym genannt (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Cologne (statt Koeln)&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Cologne (statt Koeln)&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metonomasie</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3867,8 +3867,8 @@ Und um die Bischoefe zirkulieren die Sekretaere”.</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanodos</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiederholung eines Satzes in umgekehrter Reihenfolge (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Tja, man muss das Leben nehmen, wie es ist, oder das Leben ist, wie man es nimmt.“ (Stanley Motss)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Wer nicht kann, was er will, der wolle, was er kann.“  (Leonardo da Vinci)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Tja, man muss das Leben nehmen, wie es ist, oder das Leben ist, wie man es nimmt.“ (Stanley Motss)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Wer nicht kann, was er will, der wolle, was er kann.“  (Leonardo da Vinci)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epanodos</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Epanodos</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3903,7 +3903,7 @@ Und um die Bischoefe zirkulieren die Sekretaere”.</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Captatio Benevolentiae</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ueberkreuzstellung von syntaktisch oder semantisch entsprechenden Satzteilen. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Indem ich die Feder ergreife […] wenn auch muede, sehr muede (so daß ich wohl nur in kleinen Etappen […] werde vorwaertsschreiten koennen) […] beschleicht mich das ﬂuechtige Bedenken, ob ich diesem geistigen Unternehmen […] denn auch gewachsen bin.” (Thomas Mann: Bekenntnisse des Hochstaplers Felix Krull)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Indem ich die Feder ergreife […] wenn auch muede, sehr muede (so daß ich wohl nur in kleinen Etappen […] werde vorwaertsschreiten koennen) […] beschleicht mich das ﬂuechtige Bedenken, ob ich diesem geistigen Unternehmen […] denn auch gewachsen bin.” (Thomas Mann: Bekenntnisse des Hochstaplers Felix Krull)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Captatio Benevolentiae</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Captatio Benevolentiae</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3934,8 +3934,8 @@ Und um die Bischoefe zirkulieren die Sekretaere”.</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meiosis</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verringerung; in der Antike verstanden als Gegensatz zur Amplifikation, also zur weitlaeufigen Ausschmueckung, im Lat. Brevitas genannt, in den heutigen Lehrbuechern wird Meiosis nicht mehr als Stilmittel aufgefuehrt, im Deutschen wird stattdessen der Litotes verwendet, im englischen „Understatement“ genannt. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Baumhueter (fuer Umweltschuetzer)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fraeulein&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Baumhueter (fuer Umweltschuetzer)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fraeulein&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meiosis</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Meiosis</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -3967,8 +3967,8 @@ Und um die Bischoefe zirkulieren die Sekretaere”.</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dialogismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein fingiertes Frage- Antwortspiel zur Spannungssteigerung, der Fragende beantwortet die von ihm gestellte Frage auch selbst. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die katholische Kirche soll unumstritten sein? Natuerlich nicht, denn sie hat viele dunkle Kapitel in ihrer Vergangenheit.&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Glaubst Du, dass ich in der Stadt war? Deine Mutter kann doch bestaetigen, dass ich heute bei ihr war!&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die katholische Kirche soll unumstritten sein? Natuerlich nicht, denn sie hat viele dunkle Kapitel in ihrer Vergangenheit.&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Glaubst Du, dass ich in der Stadt war? Deine Mutter kann doch bestaetigen, dass ich heute bei ihr war!&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dialogismus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Dialogism</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4000,9 +4000,9 @@ Und um die Bischoefe zirkulieren die Sekretaere”.</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiffre</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bild- oder Wortverbindungen nehmen, unabhaengig von ihrer urspruenglichen Bedeutung, einen vom Autor gesetzten Sinn an; Zeichen, dessen Inhalt raetselhaft ist und nicht oder nur vom Autor oder aus dem Kontext zu erfassen ist; der Schuelerduden nennt *ein* Beispiel: „Flug“ als Chiffre fuer den als Aufbruch in Unbekanntes […] „Stadt“ als Chiffre fuer Hoffnungslosigkeit bei einigen expressionistischen Dichtern, gelegentlich wird die Chiffre auch als absolute Metapher bezeichnet. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Schwarze Milch der Fruehe wir trinken sie abends
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Schwarze Milch der Fruehe wir trinken sie abends
 wir trinken sie mittags und morgens wir trinken sie nachts
-wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
+wir trinken und trinken&quot; (Paual Celan: Todesfuge)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiffre</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Cipher</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4036,7 +4036,7 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enumeration</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anordnung einer Wort- oder Satzreihe zu einer „koordinierenden Haeufung im Kontakt“ (Lausberg 1990). In der antiken Rhetorik sprachl. Mittel der Beweisfuehrung. Ihre Glieder sind die koordinierten Teile eines Ganzen. Die die Aufzaehlung zusammensetzenden Teile sind grundsaetzlich einander gleichgeordnet (sowohl semantisch als auch syntaktisch). Aufzaehlungen koennen durch die Konjunktionen &quot;und&quot; oder &quot;sowie&quot; verbunden sein. […] Eine steigernde Aufzaehlung heißt Klimax. (Metzler)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Laterne, Laterne, Sonne, Mond und Sterne&quot; (Kinderlied)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Laterne, Laterne, Sonne, Mond und Sterne&quot; (Kinderlied)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enumeration</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Enumeration</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4102,7 +4102,7 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repetitio</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meint die woertliche Wiederholung, auch Epizeuxis (Hinzufuegung) oder Geminatio (Verdopplung); die Bezeichnung Repetition als Nomen und das Verb repetieren sind in den allgemeinen Sprachgebrauch uebergegangen und werden als Einueben durch wiederholendes Lernen verstanden und von Wohlmeinenden empfohlen (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mein Gott, mein Gott, warum hast du mich verlassen?&quot; (Bibelvers)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mein Gott, mein Gott, warum hast du mich verlassen?&quot; (Bibelvers)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repetitio??</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Epanodos</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Regresija</rdfs:seeAlso>
@@ -4134,9 +4134,9 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Paragraph"/>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhetorische Frage</ont:Name>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Alles Mueller, oder was?&quot; (Werbung)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Bin ich deine Putzfrau?&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das ist doch jetzt nicht dein Ernst, oder?&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Alles Mueller, oder was?&quot; (Werbung)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Bin ich deine Putzfrau?&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das ist doch jetzt nicht dein Ernst, oder?&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhetorische Frage</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Erotema</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Interrogatio</rdfs:seeAlso>
@@ -4170,8 +4170,8 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klimax</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leiter, Treppe; eine mindestens dreiteilige Steigerung vom schwaecheren zum staerkeren Ausdruck, gelegentlich auch Gradation genannt, im Deutschen deckt sich diese aber i.e.S. mit der grammatischen Adjektivsteigerung (Komparation), und nur in der Verbindung mit dieser kann sie auch zur Klimax werden (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Nachricht verbreitete sich in jedem Dorf, jeder Stadt, jedem Land&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich habe gebeten, gebettelt, auf Knien gefleht&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Nachricht verbreitete sich in jedem Dorf, jeder Stadt, jedem Land&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich habe gebeten, gebettelt, auf Knien gefleht&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klimax</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Climax</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4200,8 +4200,8 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hysteron Proteron</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Das Spaetere als Frueheres; Vorwegnahme eines zeitlich oder logisch Nachfolgenden (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Ihr Mann ist tot und laesst Sie grueßen.” (Goethe: Faust)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Lasst und sterben und uns in die Waffen stuerzen!” (Vergil)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;“Ihr Mann ist tot und laesst Sie grueßen.” (Goethe: Faust)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Lasst und sterben und uns in die Waffen stuerzen!” (Vergil)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hysteron Proteron</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Hysteron Proteron</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4231,8 +4231,8 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melioration</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbesserung, siehe Euphemismus. Beispiel: Liebling statt Ehepartner (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Liebling (statt Ehepartner)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ratatouille (statt Restefraß)&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Liebling (statt Ehepartner)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ratatouille (statt Restefraß)&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melioration</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Melioration</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4264,7 +4264,7 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tmesis</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zerschneidung; bezeichnet die Trennung eines zusammengesetzten Wortes durch einfuegung anderer Satzteile, bei Homer gelaeufig aus metrischen Gruenden als Trennung des Praefixes vom Verb, im Deutschen vorwiegend im aelteren Sprachgebrauch, eine Tmesis kann nur bei zusammengehoerenden Wortteilen vorliegen – im Gegensatz zur Inversion. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„die Schlacht, die uns bevor beim Strahl des Morgens steht“ (Kleis: Pring Friedrich von Homburg)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„die Schlacht, die uns bevor beim Strahl des Morgens steht“ (Kleis: Pring Friedrich von Homburg)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tmesis</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Tmesis</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4289,8 +4289,8 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Etymologische Figur</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbindung zweier Woerter desselben Wortstammes, aber verschiedener Wortklassen, z.B. Verb und Nomen (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Gar schoene Spiele spiel ich mit dir&quot; (Goethe: Erlkoenig)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wer andern eine Grube graebt, faellt selbst hinein&quot; (Sprichwort)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Gar schoene Spiele spiel ich mit dir&quot; (Goethe: Erlkoenig)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wer andern eine Grube graebt, faellt selbst hinein&quot; (Sprichwort)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Etymologische Figur</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Etymological figure</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4322,9 +4322,9 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Wort"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malapropismus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[bewusst] falsche Wortwahl, bei der ein Wort durch ein phonologisch aehnliches, semantisch aber (sehr) unterschiedliches ersetzt wird (Duden)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ramontische Stimmung (statt romantische Stimmung)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zum Bleistift statt zum Beispiel&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Meine Guete, ist das eine Syphilisarbeit (statt Sisiphusarbeit)&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ramontische Stimmung (statt romantische Stimmung)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zum Bleistift statt zum Beispiel&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Meine Guete, ist das eine Syphilisarbeit (statt Sisiphusarbeit)&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malapropismus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Malapropism</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -4358,9 +4358,9 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Strophe"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarkasmus</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beißender, verletzender Spott, Hohn, der jemanden, etwas laecherlich machen will (Duden)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fuer alle Autofahrer, die nur Singen und Klatschen in der Schule hatten: Dies ist eine Ein- und Ausfahrt. Hier fahren Autos rein und raus!&quot; (Schild in einer Einfahrt)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Gab es das Kleid nicht in deiner Groeße?”</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Hast du deine Stelzen vergessen?”</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fuer alle Autofahrer, die nur Singen und Klatschen in der Schule hatten: Dies ist eine Ein- und Ausfahrt. Hier fahren Autos rein und raus!&quot; (Schild in einer Einfahrt)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Gab es das Kleid nicht in deiner Groeße?”</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Hast du deine Stelzen vergessen?”</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarkasmus</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Sarcasm</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Sarkazam</rdfs:seeAlso>
@@ -4451,11 +4451,11 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syllepse</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Form der syntaktischen Verkuerzung, bei der ein Praedikatsverb auf zwei oder mehr grammatisch gleiche, aber semantisch verschiedene Satzteile bezogen ist, auch Schiefe Klammer genannt, da sinngemaeß Disparates in eine formale, aber eben stilmaeßig schiefe Klammer gebracht wird, synonym verwendet mit Zeugma (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Augen des Herrn sehen auf die Gerechten und seine Ohren auf ihr Schreien&quot; (Bibelvers)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Er trank Bier, wir Wein.&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Es ist leichter den Mund zu halten, als eine Rede.&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich gehe aus, Baptist! Vor allem davon, dass Sie mir auf meine Talerchen achten!” (Dagobert Duck)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich heiße nicht nur Heinz Erhardt, sondern Sie auch herzlich willkommen.” (Heinz Ehrhardt)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Augen des Herrn sehen auf die Gerechten und seine Ohren auf ihr Schreien&quot; (Bibelvers)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Er trank Bier, wir Wein.&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Es ist leichter den Mund zu halten, als eine Rede.&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich gehe aus, Baptist! Vor allem davon, dass Sie mir auf meine Talerchen achten!” (Dagobert Duck)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Ich heiße nicht nur Heinz Erhardt, sondern Sie auch herzlich willkommen.” (Heinz Ehrhardt)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syllepse</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Silepsa</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Syllepsis</rdfs:seeAlso>
@@ -4491,11 +4491,11 @@ wir trinken und trinken&quot; (Paual Celan: Todesfuge)</rdfs:isExample>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symploke</ont:Name>
         <ont:see xml:lang="la">Complexio</ont:see>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ist im engeren Sinne die Kombination von Anapher und Epipher, im weiteren Sinn auch die Verbindung mehrerer Wiederholungsfiguren innerhalb einer syntaktischen Einheit. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Alles durch die Industrie, alles fuer die Industrie&quot; (Claude-Henry des Saint-Simon)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Alles geben die Goetter, die unendlichen,
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Alles durch die Industrie, alles fuer die Industrie&quot; (Claude-Henry des Saint-Simon)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Alles geben die Goetter, die unendlichen,
 Ihren Lieblingen ganz,
 Alle Freuden, die unendlichen,
-Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs:isExample>
+Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symploke</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Simploha</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Simploka</rdfs:seeAlso>
@@ -4529,10 +4529,10 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synekdoche</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitverstehen, die menoymische Ersetzung des eigentlichen Begriffes durch einen zu seinem Bedeutungsfeld gehoerenden enderen oder weiteren Begriff; sie unterscheidet sich von der Metonymie dadruch, dass sie stets das gleiche Begriffsfeld inkludiert, wird aber heute meist synonym mit Metonymie verwendet, auch pars pro toto oder totum pro parte genannt. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Es fanden Gespraeche mit dem Innenministerium statt (statt: mit dem Innenminister oder Vertretern des Innenministeriums)&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Kohlhaas, der seine Farbe verlor (statt: dessen Gesicht blass wurde)&quot; ( Kleist: Michael Kohlhaas)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die Jugend (stellvertretend fuer die jungen Menschen)&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;oesterreich gewann den Abfahrtslauf (statt: Die oesterreichische Mannschaft)&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Es fanden Gespraeche mit dem Innenministerium statt (statt: mit dem Innenminister oder Vertretern des Innenministeriums)&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Kohlhaas, der seine Farbe verlor (statt: dessen Gesicht blass wurde)&quot; ( Kleist: Michael Kohlhaas)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;die Jugend (stellvertretend fuer die jungen Menschen)&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;oesterreich gewann den Abfahrtslauf (statt: Die oesterreichische Mannschaft)&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synekdoche</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Sinegdoha</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Synecdoche</rdfs:seeAlso>
@@ -4566,9 +4566,9 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synesis</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ein Satzglied ist auf ein anderes nicht nach der grammatischen Regel, sondern nach dem Sinn oder der inhaltlichen Bedeutung fomuliert (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Etwa ein Drittel der Beschaeftigten legten die Arbeit nieder.&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Marmor, Stein und Eisen bricht...&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wind und Wetter kann uns nichts anhaben&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Etwa ein Drittel der Beschaeftigten legten die Arbeit nieder.&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Marmor, Stein und Eisen bricht...&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Wind und Wetter kann uns nichts anhaben&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synesis</rdfs:label>
         <rdfs:seeAlso xml:lang="la">Constructio ad sensum</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Siniceza</rdfs:seeAlso>
@@ -4603,9 +4603,9 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synkope</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verkuerzung; Auslassen eines kurzen Vokals im Wortinneren (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ein g&apos;flickter Rock mit z&apos;rissene Aufschlaeg&quot; (Nestroy: Der Talismann II, 17)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gehen &lt; gehn&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;waren &lt; warn&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;ein g&apos;flickter Rock mit z&apos;rissene Aufschlaeg&quot; (Nestroy: Der Talismann II, 17)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gehen &lt; gehn&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;waren &lt; warn&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synkope</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Sinkopa</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Syncope</rdfs:seeAlso>
@@ -4638,9 +4638,9 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synonymie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beziehung der Bedeutungsgleichheit zwischen sprachl. Zeichen. Die ling. Diskussion ueber S. ergab divergierende Einschaetzungen des Begriffs je nachdem, welche Kriterien fuer &quot;Gleichheit&quot; angelegt und welche Existenzformen oder Ebenen von Zeichen ins Auge gefasst wurden. (Metzler)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Autor und Verfasser&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Doktorarbeit und Dissertation&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Universitaet und Hochschule&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Autor und Verfasser&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Doktorarbeit und Dissertation&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Universitaet und Hochschule&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synonymie</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Sinonimija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Synonymy</rdfs:seeAlso>
@@ -4684,8 +4684,8 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tautologie</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ein Begriff wird durch mehrere Woerter gleicher Bedeutung wiedergegeben, im Gegensatz zum Pleonasmus ist die Tautologie meist zweigliedrig mit einer und-Verbindung, stilistisch ebenso unschoen wie der Pleonasmus (immer und ewig; ganz und gar) (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das Leben leben, immer, immer und ewig&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich habe bereits Stilfehler des Stils korrigiert&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Das Leben leben, immer, immer und ewig&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich habe bereits Stilfehler des Stils korrigiert&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tautologie</rdfs:label>
         <rdfs:seeAlso xml:lang="sr">Tautologija</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">Tautology</rdfs:seeAlso>
@@ -4736,10 +4736,10 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vergleich</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mit einer Vergleichspartikel wird zwischen zwei Bereichen eine Beziehung hergestellt, deren Gemeinsamkeit im tertium comparationis liegt, die gr. Bezeichnung homoiosis und das lateinische similitudo bzw. comparatio haben den deutschen Ausdruck nicht verdraengt. Nicht-bildlliche Vergleiche (z.B. der Platz ist so groß wie zehn Fußballfelder) werden leicht erkannt, tropische Vergleiche erschweren ihr Verstaendnis durch den Gebrauch der uneigentlichen Sprache und die haeufige Aussparung des Tertium comparationis [...] (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Du bist wie deine Mutter.&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Stark wie ein Loewe&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;listig wie eine Schlange&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;sie ist schneller als er&quot;</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Du bist wie deine Mutter.&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Stark wie ein Loewe&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;listig wie eine Schlange&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;sie ist schneller als er&quot;</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vergleich</rdfs:label>
         <rdfs:seeAlso xml:lang="la">Comparatio</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Komparacija</rdfs:seeAlso>
@@ -4857,12 +4857,12 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wortspiel</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">der geistreiche, witzige, oft ueberraschende Umgang mit Woertern oder Worten (Wortfuegungen) (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ach du meine Goethe!&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Auch ein blindes Huhn trinkt mal einen Korn&quot;</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Corpus fuer alle Delicti&quot; (Aufschrift eines Muelleimers)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Staebchen-Frage&quot; (Zeit Artikel, bei dem es ums Testen bei Corona geht)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Handelujah!&quot; (Webung fuer einen Boersenbroker)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Strandortvorteil&quot; (Zeitartikel von Moritz Herrmann / Sueddeutsche Zeitung Juergen Schmieder)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ach du meine Goethe!&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Auch ein blindes Huhn trinkt mal einen Korn&quot;</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Corpus fuer alle Delicti&quot; (Aufschrift eines Muelleimers)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Staebchen-Frage&quot; (Zeit Artikel, bei dem es ums Testen bei Corona geht)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Handelujah!&quot; (Webung fuer einen Boersenbroker)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Strandortvorteil&quot; (Zeitartikel von Moritz Herrmann / Sueddeutsche Zeitung Juergen Schmieder)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wortspiel</rdfs:label>
         <rdfs:seeAlso xml:lang="fr">Jeu de mots</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Kalambur</rdfs:seeAlso>
@@ -4906,11 +4906,11 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</rdfs
         <ont:liegtImBereich rdf:resource="https://ramonakuehn.de/grhoot.owl#Vers"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeugma</ont:Name>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">die Verbindung zweier Nomina durch ein Verb, das, da doppelsinnig, sinngemaeß nur zu einem passt. (Berner)</rdfs:comment>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Augen des Herrn sehen auf die Gerechten und seine Ohren auf ihr Schreien&quot; (Bibelvers)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Er trank Bier, wir Wein.&quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Es ist leichter den Mund zu halten, als eine Rede. &quot; (Helmut Glueck: Metzler Lexikon Sprache)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich gehe aus, Baptist! Vor allem davon, dass Sie mir auf meine Talerchen achten!” (Dagobert Duck)</rdfs:isExample>
-        <rdfs:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich heiße nicht nur Heinz Erhardt, sondern Sie auch herzlich willkommen.” (Heinz Ehrhardt)</rdfs:isExample>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Die Augen des Herrn sehen auf die Gerechten und seine Ohren auf ihr Schreien&quot; (Bibelvers)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Er trank Bier, wir Wein.&quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Es ist leichter den Mund zu halten, als eine Rede. &quot; (Helmut Glueck: Metzler Lexikon Sprache)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich gehe aus, Baptist! Vor allem davon, dass Sie mir auf meine Talerchen achten!” (Dagobert Duck)</ont:istBeispiel>
+        <ont:istBeispiel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich heiße nicht nur Heinz Erhardt, sondern Sie auch herzlich willkommen.” (Heinz Ehrhardt)</ont:istBeispiel>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeugma</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Zeugma</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="sr">Zeugma</rdfs:seeAlso>
