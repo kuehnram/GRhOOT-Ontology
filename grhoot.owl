@@ -59,7 +59,7 @@
     </owl:ObjectProperty>
 
 
-    <!-- https://ramonakuehn.de/grhoot.owl#einWeiteresElementDerStaerkerenBedeutungWirdHinzugefuegt -->
+    <!-- https://ramonakuehn.de/grhoot.owl#istSynonym -->
 
     <owl:ObjectProperty rdf:about="https://ramonakuehn.de/grhoot.owl#istSynonym">
         <rdfs:label>istSynonym</rdfs:label>
