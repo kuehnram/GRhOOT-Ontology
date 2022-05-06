@@ -11,3 +11,16 @@ A documentation created with LODE is available at: https://ramonakuehn.de/grhoot
 
 When using the ontology, please cite: \
 **Kühn, R., Mitrović, J., & Granitzer, M. (2022): GRhOOT: Ontology of Rhetorical Figures in German. In Proceedings of The 13th Language Resources and Evaluation Conference, Marseille, France, June. European Language Resources Association. (to appear)**
+
+```
+@InProceedings{kuehntest,
+    author    = {Kühn, Ramona and Mitrović, Jelena and Granitzer, Michael},
+    title     = {{GRhOOT: Ontology of Rhetorical Figures in German}},
+    booktitle      = {Proceedings of The 13th Language Resources and Evaluation Conference},
+    month          = {June},
+    year           = {2022},
+    address        = {Marseille, France},
+    publisher      = {European Language Resources Association},
+    notes = {to appear}
+   }
+```
