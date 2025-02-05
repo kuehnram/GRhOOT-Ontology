@@ -1,6 +1,6 @@
 # GRhOOT-Ontology
 GRhOOT, the German RhetOrical OnTology, is a domain ontology of rhetorical figures in the German language.
-It contains the formal description of 108 rhetorical figures that exist in the German language and also shows examples for every figure. It is described in the file ```ghroot.owl```.
+It contains the formal description of 110 rhetorical figures that exist in the German language and also shows examples for every figure. It is described in the file ```ghroot.owl```.
 
 The file ```competency-questions.txt``` shows five competency questions in DL and SPARQL that were used to perform a completeness check on the ontology. \
 An example how to use SPARQL in Python can be found in the file ```Python_SPARQL.py```.
